@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# raw model sources stay local (see MODELS.md)
+models-raw/*
+!models-raw/.gitkeep
