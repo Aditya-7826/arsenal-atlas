@@ -58,7 +58,6 @@ body {
     radial-gradient(60rem 40rem at 0% 0%, rgba(212, 175, 55, 0.08), transparent 70%),
     radial-gradient(60rem 40rem at 100% 100%, rgba(140, 106, 31, 0.06), transparent 70%),
     var(--bg);
-  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -127,8 +126,15 @@ body {
   --blur: 18px;
 }
 @media (max-width: 768px) {
-  .glass-over-canvas {
+  /* phones: lighter blur everywhere to protect frame rate */
+  .glass {
     --blur: 8px;
+  }
+  /* panels nested in the frame already sit on blurred glass, so skip a second blur pass */
+  .glass-frame .glass:not(.glass-over-canvas) {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: var(--glass-strong);
   }
 }
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {

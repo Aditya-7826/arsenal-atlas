@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { Link, useParams } from 'react-router'
 import { BY_ID, CATEGORY_BY_SLUG, boreMm, categoryStats, fmt, hasModel, inCategory, type Firearm } from '../data'
-import { useMode } from '../mode'
+import { useMode3D } from '../mode'
 import { toggleCompare, useCompare, MAX_COMPARE } from '../compare'
 import { GlassPanel } from '../components/GlassPanel'
 import { StatTile, type Compare } from '../components/StatTile'
@@ -57,7 +57,7 @@ function Fact({ k, v }: { k: string; v: string | null }) {
 export default function FirearmPage() {
   const { id = '' } = useParams()
   const f = BY_ID.get(id)
-  const { mode } = useMode()
+  const { mode } = useMode3D()
   const compare = useCompare()
   usePageTitle(f?.name ?? 'Not found')
 

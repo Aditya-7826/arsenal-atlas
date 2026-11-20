@@ -107,7 +107,7 @@ export default function CategoryPage() {
           </p>
           <div className="flex items-center gap-2">
             {(q || country || era) && (
-              <button type="button" className="btn" onClick={() => setParams(params.get('sort') ? { sort } : {}, { replace: true })}>
+              <button type="button" className="btn whitespace-nowrap" onClick={() => setParams(params.get('sort') ? { sort } : {}, { replace: true })}>
                 Clear filters
               </button>
             )}

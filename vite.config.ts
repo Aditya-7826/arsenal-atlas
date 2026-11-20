@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig, type Plugin } from 'vite'
-import { readdirSync, existsSync } from 'node:fs'
+import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 
 /**
@@ -27,7 +27,17 @@ function modelManifest(): Plugin {
   }
 }
 
+/** The global security headers from vercel.json, so `npm run preview` behaves like production. */
+function productionHeaders(): Record<string, string> {
+  const cfg = JSON.parse(readFileSync(resolve(import.meta.dirname, 'vercel.json'), 'utf8')) as {
+    headers: { source: string; headers: { key: string; value: string }[] }[]
+  }
+  const all = cfg.headers.find((h) => h.source === '/(.*)')
+  return Object.fromEntries((all?.headers ?? []).map((h) => [h.key, h.value]))
+}
+
 export default defineConfig({
   plugins: [react(), tailwindcss(), modelManifest()],
   build: { chunkSizeWarningLimit: 1500 },
+  preview: { headers: productionHeaders() },
 })

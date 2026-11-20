@@ -1,7 +1,7 @@
 import { lazy, Suspense, useState } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { BY_ID, CATEGORIES, FIREARMS, MODEL_COUNT, inCategory, type Firearm } from '../data'
-import { useMode } from '../mode'
+import { useMode3D } from '../mode'
 import { GlassPanel } from '../components/GlassPanel'
 import { Silhouette2D } from '../components/Silhouette2D'
 import { IconArrow } from '../components/Icons'
@@ -34,15 +34,15 @@ function Lobby2D() {
 
 export default function Lobby() {
   usePageTitle()
-  const { mode } = useMode()
+  const { mode } = useMode3D()
   const nav = useNavigate()
   const [hover, setHover] = useState<Firearm | null>(null)
 
   const intro = (
-    <GlassPanel overCanvas={mode === '3d'} stagger={0} className="max-w-md p-5">
+    <GlassPanel overCanvas={mode === '3d'} stagger={0} className="max-w-md p-4 sm:p-5">
       <p className="label text-gold!">The armoury hall</p>
-      <h1 className="font-display mt-1 text-2xl text-text md:text-3xl">ARSENAL ATLAS</h1>
-      <p className="mt-2 text-sm text-muted">
+      <h1 className="font-display mt-1 text-xl text-text sm:text-2xl md:text-3xl">ARSENAL ATLAS</h1>
+      <p className={`mt-2 text-sm text-muted ${mode === '3d' ? 'hidden sm:block' : ''}`}>
         A museum-style collection of {FIREARMS.length} famous firearms across {CATEGORIES.length} galleries, with specifications, history and a 360° viewer.
         {mode === '3d' && ' Drag to look around, then select a piece on display.'}
       </p>

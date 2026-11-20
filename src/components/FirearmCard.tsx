@@ -11,7 +11,7 @@ export function FirearmCard({ firearm, index }: { firearm: Firearm; index: numbe
         {!hasModel(firearm.id) && <span className="label absolute bottom-2 right-2 text-[0.6rem]!">Placeholder</span>}
       </div>
       <div className="px-1 pb-2">
-        <h3 className="font-display grow-line text-[0.95rem] leading-snug text-text">{firearm.name.toUpperCase()}</h3>
+        <h2 className="font-display grow-line text-[0.95rem] leading-snug text-text">{firearm.name.toUpperCase()}</h2>
         <p className="mt-3 text-xs text-muted">
           {firearm.country} · {firearm.year ?? 'Year unverified'}
         </p>
