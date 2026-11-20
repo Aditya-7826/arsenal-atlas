@@ -1,0 +1,2784 @@
+[
+  {
+    "id": "stg-44",
+    "name": "Sturmgewehr 44",
+    "nickname": "StG 44",
+    "country": "Germany",
+    "manufacturer": "C.G. Haenel",
+    "designer": "Hugo Schmeisser",
+    "year": 1944,
+    "category": "assault-rifles",
+    "calibre": "7.92×33mm Kurz",
+    "action": "Gas-operated",
+    "weightKg": 4.6,
+    "lengthMm": 940,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Wehrmacht",
+      "Waffen-SS"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "Built around a shortened intermediate cartridge, the StG 44 bridged the gap between full-power rifles and pistol-calibre submachine guns. It arrived late in the Second World War and was produced in comparatively small numbers. Its concept shaped almost every infantry rifle that followed.",
+    "trivia": [
+      "Its name, \"Sturmgewehr\", is the origin of the English term \"assault rifle\"."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/stg-44.glb"
+  },
+  {
+    "id": "ak-47",
+    "name": "AK-47",
+    "nickname": "Kalashnikov",
+    "country": "Soviet Union",
+    "manufacturer": "Izhevsk Mechanical Plant",
+    "designer": "Mikhail Kalashnikov",
+    "year": 1949,
+    "category": "assault-rifles",
+    "calibre": "7.62×39mm",
+    "action": "Gas-operated",
+    "weightKg": 4.3,
+    "lengthMm": 870,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet Army",
+      "Warsaw Pact armies",
+      "Dozens of national armies"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Soviet–Afghan War",
+      "Numerous Cold War conflicts"
+    ],
+    "history": "Adopted by the Soviet Army in 1949, the AK-47 became famous for working in mud, dust and extreme cold with little attention. Licensed and unlicensed production across many countries made it the most widely produced rifle pattern in history. It became a recognisable symbol of the Cold War era.",
+    "trivia": [
+      "The rifle appears on the national flag of Mozambique.",
+      "\"AK\" stands for Avtomat Kalashnikova."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/ak-47.glb"
+  },
+  {
+    "id": "akm",
+    "name": "AKM",
+    "nickname": "Modernised Kalashnikov",
+    "country": "Soviet Union",
+    "manufacturer": "Izhevsk Mechanical Plant",
+    "designer": "Mikhail Kalashnikov",
+    "year": 1959,
+    "category": "assault-rifles",
+    "calibre": "7.62×39mm",
+    "action": "Gas-operated",
+    "weightKg": 3.1,
+    "lengthMm": 880,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet Army",
+      "Warsaw Pact armies"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Soviet–Afghan War"
+    ],
+    "history": "The AKM refined the original Kalashnikov with a stamped steel receiver that made it lighter and quicker to manufacture. It replaced the AK-47 in Soviet service and became the most common variant of the family worldwide. Many rifles casually called \"AK-47s\" are in fact AKMs.",
+    "trivia": [
+      "The \"M\" stands for \"modernizirovanny\", meaning modernised."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/akm.glb"
+  },
+  {
+    "id": "ak-74",
+    "name": "AK-74",
+    "nickname": null,
+    "country": "Soviet Union",
+    "manufacturer": "Izhevsk Mechanical Plant",
+    "designer": "Mikhail Kalashnikov",
+    "year": 1974,
+    "category": "assault-rifles",
+    "calibre": "5.45×39mm",
+    "action": "Gas-operated",
+    "weightKg": 3.3,
+    "lengthMm": 943,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet Army",
+      "Russian Armed Forces"
+    ],
+    "conflicts": [
+      "Soviet–Afghan War",
+      "Chechen Wars"
+    ],
+    "history": "The AK-74 moved the Kalashnikov family to a smaller, lighter 5.45mm cartridge, following the global trend toward small-calibre rifles. Its large, distinctive muzzle brake is the easiest way to tell it apart from earlier models. It served as the standard Soviet and later Russian rifle for decades.",
+    "trivia": [
+      "Early magazines were made of a reddish-brown polymer, giving the rifle a distinctive look."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/ak-74.glb"
+  },
+  {
+    "id": "m16",
+    "name": "M16",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Colt",
+    "designer": "Eugene Stoner",
+    "year": 1964,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 2.9,
+    "lengthMm": 986,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Armed Forces",
+      "Many allied militaries"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Gulf War",
+      "Iraq War"
+    ],
+    "history": "Developed from the ArmaLite AR-15, the M16 replaced the M14 as the main U.S. service rifle during the Vietnam War. Its aluminium and polymer construction looked strikingly modern next to the wood-and-steel rifles of the time. Successive versions have kept it in service for more than half a century.",
+    "trivia": [
+      "Its light weight and black furniture earned it the early nickname \"the black rifle\"."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m16.glb"
+  },
+  {
+    "id": "m4-carbine",
+    "name": "M4 Carbine",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Colt",
+    "designer": null,
+    "year": 1994,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 2.9,
+    "lengthMm": 840,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Army",
+      "U.S. Marine Corps",
+      "Many allied militaries"
+    ],
+    "conflicts": [
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The M4 is a shorter, handier version of the M16 with a collapsible stock, designed for troops working in vehicles and confined spaces. It gradually became the standard U.S. Army individual weapon. Its rail system made it one of the most accessory-friendly rifles of its time.",
+    "trivia": [
+      "The overall length shown is with the stock extended."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/m4-carbine.glb"
+  },
+  {
+    "id": "hk-g36",
+    "name": "Heckler & Koch G36",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 1997,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 3.6,
+    "lengthMm": 999,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Bundeswehr",
+      "Spanish Armed Forces",
+      "Many police forces"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The G36 replaced the G3 as Germany's standard rifle and made heavy use of fibre-reinforced polymer. Its translucent magazines, which let the user see the remaining rounds, became a recognisable feature. It was exported widely to military and police units.",
+    "trivia": [
+      "The magazines can clip together side by side without extra accessories."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/hk-g36.glb"
+  },
+  {
+    "id": "famas",
+    "name": "FAMAS",
+    "nickname": "Le Clairon (The Bugle)",
+    "country": "France",
+    "manufacturer": "MAS / GIAT Industries",
+    "designer": "Paul Télié",
+    "year": 1978,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Lever-delayed blowback",
+    "weightKg": 3.6,
+    "lengthMm": 757,
+    "capacity": 25,
+    "feed": "Detachable box magazine",
+    "users": [
+      "French Armed Forces"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "War in Afghanistan",
+      "Operations in Mali"
+    ],
+    "history": "The FAMAS is a compact bullpup rifle that served as France's standard infantry weapon for around four decades. Its long carrying handle running along the top gives it an unmistakable outline. It has been progressively replaced by the HK416F since the late 2010s.",
+    "trivia": [
+      "French soldiers nicknamed it \"Le Clairon\" because its shape resembles a bugle."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/famas.glb"
+  },
+  {
+    "id": "steyr-aug",
+    "name": "Steyr AUG",
+    "nickname": null,
+    "country": "Austria",
+    "manufacturer": "Steyr Mannlicher",
+    "designer": null,
+    "year": 1978,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 3.6,
+    "lengthMm": 790,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Austrian Armed Forces",
+      "Australian Defence Force",
+      "Irish Defence Forces"
+    ],
+    "conflicts": [
+      "War in Afghanistan",
+      "East Timor"
+    ],
+    "history": "The AUG was one of the first bullpup rifles to see widespread military adoption. Its green polymer shell, translucent magazine and built-in optical sight looked futuristic when it appeared. It remains in service around the world in updated forms.",
+    "trivia": [
+      "\"AUG\" stands for Armee-Universal-Gewehr, meaning universal army rifle."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/steyr-aug.glb"
+  },
+  {
+    "id": "l85",
+    "name": "L85 (SA80)",
+    "nickname": null,
+    "country": "United Kingdom",
+    "manufacturer": "Royal Small Arms Factory, Enfield",
+    "designer": null,
+    "year": 1985,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": 785,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "British Armed Forces"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "Iraq War",
+      "War in Afghanistan"
+    ],
+    "history": "The L85 introduced the British Army to the bullpup layout and the 5.56mm NATO cartridge. Early versions had a difficult reputation, which a major upgrade in the early 2000s largely addressed. It is usually seen with an optical sight as standard.",
+    "trivia": [
+      "The weapon family name SA80 stands for Small Arms for the 1980s."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/l85.glb"
+  },
+  {
+    "id": "galil",
+    "name": "IMI Galil",
+    "nickname": null,
+    "country": "Israel",
+    "manufacturer": "Israel Military Industries",
+    "designer": "Yisrael Galil and Yaacov Lior",
+    "year": 1972,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 35,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Israel Defense Forces",
+      "Many export customers"
+    ],
+    "conflicts": [
+      "Yom Kippur War",
+      "1982 Lebanon War"
+    ],
+    "history": "The Galil drew on lessons from the Kalashnikov family while adopting Western 5.56mm ammunition. It was designed after the Six-Day War to suit desert conditions. It went on to wide export success in Latin America, Africa and Asia.",
+    "trivia": [
+      "Some versions include a built-in bottle opener on the bipod."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/galil.glb"
+  },
+  {
+    "id": "tavor",
+    "name": "IWI Tavor TAR-21",
+    "nickname": "Tavor",
+    "country": "Israel",
+    "manufacturer": "Israel Weapon Industries",
+    "designer": null,
+    "year": 2001,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 3.27,
+    "lengthMm": 720,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Israel Defense Forces",
+      "Indian special forces",
+      "Several export customers"
+    ],
+    "conflicts": [
+      "2014 Gaza War"
+    ],
+    "history": "The Tavor is a compact bullpup rifle created for Israeli infantry who often operate in and around vehicles and buildings. Its short overall length keeps a full-length barrel. It gradually replaced the M16 family in front-line Israeli units.",
+    "trivia": [
+      "The name comes from Mount Tabor in northern Israel."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/tavor.glb"
+  },
+  {
+    "id": "scar-l",
+    "name": "FN SCAR-L",
+    "nickname": "Mk 16",
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": null,
+    "year": 2009,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 3.29,
+    "lengthMm": null,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Special Operations Command",
+      "Several European special forces"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The SCAR family was developed for U.S. Special Operations Command as a modular rifle system. The light version shares most of its parts and controls with the heavier 7.62mm model. Its folding, adjustable stock and long top rail give it a distinctive angular silhouette.",
+    "trivia": [
+      "\"SCAR\" stands for Special Operations Forces Combat Assault Rifle."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/scar-l.glb"
+  },
+  {
+    "id": "hk416",
+    "name": "Heckler & Koch HK416",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 2005,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Norwegian Armed Forces",
+      "French Army",
+      "U.S. Marine Corps (M27)"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The HK416 combines the familiar ergonomics of the AR-15 family with a different gas system developed by Heckler & Koch. It gained a strong reputation with special operations units before being adopted by whole armies. France chose it in 2016 to replace the FAMAS.",
+    "trivia": [
+      "The U.S. Marine Corps uses a variant designated M27 Infantry Automatic Rifle."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/hk416.glb"
+  },
+  {
+    "id": "qbz-95",
+    "name": "QBZ-95",
+    "nickname": "Type 95",
+    "country": "China",
+    "manufacturer": "Norinco",
+    "designer": null,
+    "year": 1997,
+    "category": "assault-rifles",
+    "calibre": "5.8×42mm",
+    "action": "Gas-operated",
+    "weightKg": 3.25,
+    "lengthMm": 745,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "People's Liberation Army",
+      "Hong Kong Garrison"
+    ],
+    "conflicts": [],
+    "history": "The QBZ-95 is a bullpup rifle built around China's own 5.8mm cartridge. It was first shown publicly when the People's Liberation Army garrison entered Hong Kong in 1997. It is part of a family that also includes a carbine and a light support weapon.",
+    "trivia": [
+      "Its first widely seen public appearance was the 1997 Hong Kong handover."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/qbz-95.glb"
+  },
+  {
+    "id": "insas",
+    "name": "INSAS",
+    "nickname": null,
+    "country": "India",
+    "manufacturer": "Ordnance Factory Board",
+    "designer": null,
+    "year": 1998,
+    "category": "assault-rifles",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 4.15,
+    "lengthMm": 960,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Indian Army",
+      "Royal Bhutan Army",
+      "Nepal Army"
+    ],
+    "conflicts": [
+      "Kargil War"
+    ],
+    "history": "INSAS was India's first domestically developed family of infantry weapons, including a rifle and a light machine gun. It replaced older 7.62mm rifles in Indian service. It is now being supplemented by newer rifles in the Indian Army.",
+    "trivia": [
+      "\"INSAS\" stands for Indian Small Arms System."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/insas.glb"
+  },
+  {
+    "id": "m1-garand",
+    "name": "M1 Garand",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Springfield Armory",
+    "designer": "John C. Garand",
+    "year": 1936,
+    "category": "battle-rifles",
+    "calibre": ".30-06 Springfield",
+    "action": "Gas-operated",
+    "weightKg": 4.3,
+    "lengthMm": 1100,
+    "capacity": 8,
+    "feed": "En-bloc clip",
+    "users": [
+      "U.S. Army",
+      "U.S. Marine Corps"
+    ],
+    "conflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "history": "The M1 Garand was the first semi-automatic rifle to become the standard infantry arm of a major army. It gave American infantry a significant advantage in rate of fire during the Second World War. It remains popular today with collectors and ceremonial units.",
+    "trivia": [
+      "General George S. Patton called it \"the greatest battle implement ever devised\".",
+      "The empty clip is ejected with a distinctive metallic \"ping\"."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/m1-garand.glb"
+  },
+  {
+    "id": "svt-40",
+    "name": "SVT-40",
+    "nickname": "Sveta",
+    "country": "Soviet Union",
+    "manufacturer": "Tula Arms Plant",
+    "designer": "Fedor Tokarev",
+    "year": 1940,
+    "category": "battle-rifles",
+    "calibre": "7.62×54mmR",
+    "action": "Gas-operated",
+    "weightKg": 3.85,
+    "lengthMm": 1226,
+    "capacity": 10,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Red Army"
+    ],
+    "conflicts": [
+      "World War II",
+      "Continuation War"
+    ],
+    "history": "The SVT-40 was the Soviet Union's attempt to equip its infantry with a self-loading rifle on the eve of the Second World War. Production was scaled back as wartime needs favoured simpler bolt-action rifles. Captured examples were valued by German and Finnish troops.",
+    "trivia": [
+      "Soldiers nicknamed it \"Sveta\", a common Russian girl's name."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/svt-40.glb"
+  },
+  {
+    "id": "sks",
+    "name": "SKS",
+    "nickname": "Simonov",
+    "country": "Soviet Union",
+    "manufacturer": "Tula Arms Plant",
+    "designer": "Sergei Simonov",
+    "year": 1945,
+    "category": "battle-rifles",
+    "calibre": "7.62×39mm",
+    "action": "Gas-operated",
+    "weightKg": 3.85,
+    "lengthMm": 1020,
+    "capacity": 10,
+    "feed": "Fixed box magazine",
+    "users": [
+      "Soviet Army",
+      "People's Liberation Army (Type 56 carbine)"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Korean War"
+    ],
+    "history": "The SKS was among the first rifles designed for the 7.62×39mm cartridge. It was quickly overshadowed by the AK-47 in Soviet service but remained a ceremonial weapon. Massive production in China and elsewhere made it one of the most common rifles of the Cold War.",
+    "trivia": [
+      "It is still carried by Russian honour guards on ceremonial duty."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/sks.glb"
+  },
+  {
+    "id": "fn-fal",
+    "name": "FN FAL",
+    "nickname": "The right arm of the free world",
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": "Dieudonné Saive",
+    "year": 1953,
+    "category": "battle-rifles",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 4.3,
+    "lengthMm": 1090,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "British Army (L1A1)",
+      "Canadian Army",
+      "Argentine Army",
+      "Over 90 countries"
+    ],
+    "conflicts": [
+      "Falklands War",
+      "Six-Day War",
+      "Rhodesian Bush War"
+    ],
+    "history": "The FAL was adopted by so many Western-aligned nations that it earned the nickname \"the right arm of the free world\". It was the standard rifle of much of NATO and the Commonwealth during the early Cold War. In the Falklands War, both sides carried versions of it.",
+    "trivia": [
+      "\"FAL\" stands for Fusil Automatique Léger, meaning light automatic rifle."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/fn-fal.glb"
+  },
+  {
+    "id": "ar-10",
+    "name": "ArmaLite AR-10",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "ArmaLite",
+    "designer": "Eugene Stoner",
+    "year": 1956,
+    "category": "battle-rifles",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 3.29,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Portuguese Armed Forces",
+      "Sudanese Army"
+    ],
+    "conflicts": [
+      "Portuguese Colonial War"
+    ],
+    "history": "The AR-10 was a radical design that used aluminium and fibreglass at a time when rifles were made of steel and wood. It lost the U.S. Army trials to the M14 but saw limited export service. Its scaled-down sibling, the AR-15, became far more famous.",
+    "trivia": [
+      "Many modern 7.62mm sporting and military rifles still use the AR-10 name."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/ar-10.glb"
+  },
+  {
+    "id": "m14",
+    "name": "M14",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Springfield Armory",
+    "designer": null,
+    "year": 1959,
+    "category": "battle-rifles",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 4.1,
+    "lengthMm": 1118,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Armed Forces",
+      "Philippine Armed Forces"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The M14 was developed from the M1 Garand and adopted as the U.S. service rifle in 1959. It was replaced by the M16 within a decade, but never truly disappeared. Updated versions returned to service as marksman rifles in Iraq and Afghanistan.",
+    "trivia": [
+      "It remains a ceremonial rifle for several U.S. honour guard units."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m14.glb"
+  },
+  {
+    "id": "hk-g3",
+    "name": "Heckler & Koch G3",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 1959,
+    "category": "battle-rifles",
+    "calibre": "7.62×51mm NATO",
+    "action": "Roller-delayed blowback",
+    "weightKg": 4.4,
+    "lengthMm": 1025,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Bundeswehr",
+      "Pakistan Army",
+      "Iranian Army",
+      "Many others"
+    ],
+    "conflicts": [
+      "Iran–Iraq War",
+      "Portuguese Colonial War"
+    ],
+    "history": "The G3 was West Germany's standard rifle for almost four decades and one of the most widely exported battle rifles ever made. Its design traces back to post-war work in Spain on the CETME rifle. Licensed production took place in more than a dozen countries.",
+    "trivia": [
+      "Its design family later produced the famous MP5 submachine gun."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/hk-g3.glb"
+  },
+  {
+    "id": "scar-h",
+    "name": "FN SCAR-H",
+    "nickname": "Mk 17",
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": null,
+    "year": 2009,
+    "category": "battle-rifles",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 3.58,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Special Operations Command",
+      "Several European armed forces"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The heavier member of the SCAR family brings full-power 7.62mm cartridges into a compact, modular package. It shares its controls and much of its layout with the 5.56mm SCAR-L. It is widely used by special operations forces as a battle rifle.",
+    "trivia": [
+      "\"H\" stands for Heavy, as opposed to the 5.56mm \"L\" for Light."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/scar-h.glb"
+  },
+  {
+    "id": "svd-dragunov",
+    "name": "SVD Dragunov",
+    "nickname": "Dragunov",
+    "country": "Soviet Union",
+    "manufacturer": "Izhmash",
+    "designer": "Yevgeny Dragunov",
+    "year": 1963,
+    "category": "sniper-dmr",
+    "calibre": "7.62×54mmR",
+    "action": "Gas-operated",
+    "weightKg": 4.3,
+    "lengthMm": 1225,
+    "capacity": 10,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet Army",
+      "Russian Armed Forces",
+      "Many export users"
+    ],
+    "conflicts": [
+      "Soviet–Afghan War",
+      "Chechen Wars"
+    ],
+    "history": "The SVD was designed to give each infantry squad a marksman able to engage targets beyond the reach of standard rifles. Its skeletonised wooden stock and long, slim profile make it instantly recognisable. It has been produced in large numbers and copied by several countries.",
+    "trivia": [
+      "It is often described as one of the first purpose-built designated marksman rifles."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/svd-dragunov.glb"
+  },
+  {
+    "id": "m21",
+    "name": "M21",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Rock Island Arsenal",
+    "designer": null,
+    "year": 1969,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Army"
+    ],
+    "conflicts": [
+      "Vietnam War"
+    ],
+    "history": "The M21 was a carefully accurised version of the M14 rifle, fitted with a scope and match-grade components. It served as the U.S. Army's primary sniper rifle during the later Vietnam War. It was later replaced by the bolt-action M24.",
+    "trivia": [
+      "Many were built from selected M14 rifles already in the inventory."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m21.glb"
+  },
+  {
+    "id": "steyr-ssg-69",
+    "name": "Steyr SSG 69",
+    "nickname": null,
+    "country": "Austria",
+    "manufacturer": "Steyr Mannlicher",
+    "designer": null,
+    "year": 1969,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Bolt-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 5,
+    "feed": "Rotary magazine",
+    "users": [
+      "Austrian Armed Forces",
+      "Many police units"
+    ],
+    "conflicts": [],
+    "history": "The SSG 69 was Austria's standard sniper rifle for decades and became well known for its accuracy. It featured an early use of synthetic stock material on a precision rifle. It also served with numerous police and security units.",
+    "trivia": [
+      "\"SSG\" stands for Scharfschützengewehr, meaning sharpshooter rifle."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/steyr-ssg-69.glb"
+  },
+  {
+    "id": "m40",
+    "name": "M40",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Remington Arms / USMC",
+    "designer": null,
+    "year": 1966,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Bolt-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 5,
+    "feed": "Internal magazine",
+    "users": [
+      "U.S. Marine Corps"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Gulf War",
+      "Iraq War"
+    ],
+    "history": "Based on the Remington Model 700 action, the M40 has been the U.S. Marine Corps sniper rifle since the Vietnam era. Marine armourers have rebuilt and upgraded it through several versions. Each version gradually modernised the stock, optics and barrel.",
+    "trivia": [
+      "USMC armourers hand-built many of the later variants in-house."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m40.glb"
+  },
+  {
+    "id": "vss-vintorez",
+    "name": "VSS Vintorez",
+    "nickname": "Vintorez (Thread cutter)",
+    "country": "Soviet Union",
+    "manufacturer": "Tula Arms Plant",
+    "designer": null,
+    "year": 1987,
+    "category": "sniper-dmr",
+    "calibre": "9×39mm",
+    "action": "Gas-operated",
+    "weightKg": 2.6,
+    "lengthMm": 894,
+    "capacity": 10,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet special forces",
+      "Russian special forces"
+    ],
+    "conflicts": [
+      "Chechen Wars"
+    ],
+    "history": "The VSS is a compact, integrally suppressed marksman rifle developed for Soviet special units. It was designed with a quiet, heavy subsonic cartridge for short-range precision work. Its skeleton wooden stock gives it a distinctive appearance.",
+    "trivia": [
+      "\"Vintorez\" is a Russian word for a thread-cutting tool."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/vss-vintorez.glb"
+  },
+  {
+    "id": "l96a1",
+    "name": "Accuracy International L96A1",
+    "nickname": null,
+    "country": "United Kingdom",
+    "manufacturer": "Accuracy International",
+    "designer": "Malcolm Cooper",
+    "year": 1985,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Bolt-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 10,
+    "feed": "Detachable box magazine",
+    "users": [
+      "British Army"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "Bosnian War"
+    ],
+    "history": "The L96A1 replaced the venerable Lee-Enfield-based L42 as the British Army's sniper rifle in the 1980s. It was designed by a British Olympic shooting champion. Its aluminium chassis and thumbhole stock set a template for later military precision rifles.",
+    "trivia": [
+      "Its designer, Malcolm Cooper, won Olympic gold medals in 1984 and 1988."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/l96a1.glb"
+  },
+  {
+    "id": "m24",
+    "name": "M24 Sniper Weapon System",
+    "nickname": "M24",
+    "country": "United States",
+    "manufacturer": "Remington Arms",
+    "designer": null,
+    "year": 1988,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Bolt-action",
+    "weightKg": 5.4,
+    "lengthMm": 1092,
+    "capacity": 5,
+    "feed": "Internal magazine",
+    "users": [
+      "U.S. Army"
+    ],
+    "conflicts": [
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The M24 was adopted by the U.S. Army as a complete sniper system, including the rifle, optics and accessories. It is based on the long-action Remington 700. It served as the Army's principal sniper rifle for more than two decades.",
+    "trivia": [
+      "The long action was chosen so it could be converted to larger cartridges if needed."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m24.glb"
+  },
+  {
+    "id": "barrett-m82",
+    "name": "Barrett M82",
+    "nickname": "Light Fifty",
+    "country": "United States",
+    "manufacturer": "Barrett Firearms",
+    "designer": "Ronnie Barrett",
+    "year": 1982,
+    "category": "sniper-dmr",
+    "calibre": ".50 BMG",
+    "action": "Recoil-operated",
+    "weightKg": 14,
+    "lengthMm": 1448,
+    "capacity": 10,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Armed Forces",
+      "Over 30 countries"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The M82 was developed in a garage workshop and became one of the best-known heavy anti-materiel rifles in the world. It is intended for long-range use against equipment such as vehicles and radar installations. The U.S. military uses an updated version designated the M107.",
+    "trivia": [
+      "It was declared the official state rifle of Tennessee in 2016."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/barrett-m82.glb"
+  },
+  {
+    "id": "tac-50",
+    "name": "McMillan TAC-50",
+    "nickname": "C15 (Canada)",
+    "country": "United States",
+    "manufacturer": "McMillan Firearms",
+    "designer": null,
+    "year": 2000,
+    "category": "sniper-dmr",
+    "calibre": ".50 BMG",
+    "action": "Bolt-action",
+    "weightKg": 11.8,
+    "lengthMm": null,
+    "capacity": 5,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Canadian Armed Forces",
+      "U.S. Navy SEALs"
+    ],
+    "conflicts": [
+      "War in Afghanistan",
+      "War against the Islamic State"
+    ],
+    "history": "The TAC-50 is a long-range bolt-action rifle chambered for the .50 BMG cartridge. Canada adopted it as the C15 Long Range Sniper Weapon. It became well known for a series of record-distance engagements by Canadian snipers.",
+    "trivia": [
+      "It has been associated with several of the longest confirmed sniper shots on record."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/tac-50.glb"
+  },
+  {
+    "id": "mk14-ebr",
+    "name": "Mk 14 Enhanced Battle Rifle",
+    "nickname": "Mk 14 EBR",
+    "country": "United States",
+    "manufacturer": "Naval Surface Warfare Center Crane",
+    "designer": null,
+    "year": 2004,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Navy SEALs",
+      "U.S. Army",
+      "U.S. Coast Guard"
+    ],
+    "conflicts": [
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The Mk 14 EBR placed the proven M14 action into a modern aluminium chassis with rails and an adjustable stock. It was produced quickly to meet a need for longer-range rifles in Afghanistan and Iraq. Its success extended the life of the M14 design by decades.",
+    "trivia": [
+      "It was originally developed for U.S. Navy special warfare units."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/mk14-ebr.glb"
+  },
+  {
+    "id": "m110-sass",
+    "name": "M110 Semi-Automatic Sniper System",
+    "nickname": "M110 SASS",
+    "country": "United States",
+    "manufacturer": "Knight's Armament Company",
+    "designer": "Eugene Stoner (SR-25 basis)",
+    "year": 2008,
+    "category": "sniper-dmr",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Army",
+      "U.S. Marine Corps"
+    ],
+    "conflicts": [
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The M110 is a semi-automatic sniper rifle based on the SR-25, itself derived from Stoner's AR-10. It gave U.S. snipers a faster follow-up capability than the bolt-action M24. It is typically fitted with a suppressor and a variable-power scope.",
+    "trivia": [
+      "It partially replaced the M24 in U.S. Army sniper teams."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/m110-sass.glb"
+  },
+  {
+    "id": "l115a3",
+    "name": "Accuracy International L115A3",
+    "nickname": "AWM",
+    "country": "United Kingdom",
+    "manufacturer": "Accuracy International",
+    "designer": null,
+    "year": 2008,
+    "category": "sniper-dmr",
+    "calibre": ".338 Lapua Magnum",
+    "action": "Bolt-action",
+    "weightKg": 6.8,
+    "lengthMm": 1300,
+    "capacity": 5,
+    "feed": "Detachable box magazine",
+    "users": [
+      "British Army",
+      "Royal Marines"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The L115A3 is the British military version of Accuracy International's AWM long-range rifle. It brought the powerful .338 Lapua Magnum cartridge into British service. In 2009, a British sniper set a then-record distance for a confirmed engagement with it.",
+    "trivia": [
+      "AWM stands for Arctic Warfare Magnum, reflecting the family's cold-weather design."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/l115a3.glb"
+  },
+  {
+    "id": "thompson",
+    "name": "Thompson submachine gun",
+    "nickname": "Tommy gun",
+    "country": "United States",
+    "manufacturer": "Auto-Ordnance Company",
+    "designer": "John T. Thompson",
+    "year": 1921,
+    "category": "submachine-guns",
+    "calibre": ".45 ACP",
+    "action": "Blowback",
+    "weightKg": 4.9,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Armed Forces",
+      "British Army",
+      "Many police forces"
+    ],
+    "conflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "history": "The Thompson became notorious in Prohibition-era America and then served in large numbers during the Second World War. Early models with drum magazines and finned barrels are some of the most iconic firearms of the twentieth century. Simplified wartime versions were made in vast quantities.",
+    "trivia": [
+      "It was nicknamed \"the Chicago typewriter\" in the 1920s."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/thompson.glb"
+  },
+  {
+    "id": "mp40",
+    "name": "MP 40",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Erma Werke",
+    "designer": "Heinrich Vollmer",
+    "year": 1940,
+    "category": "submachine-guns",
+    "calibre": "9×19mm Parabellum",
+    "action": "Blowback",
+    "weightKg": 4,
+    "lengthMm": 833,
+    "capacity": 32,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Wehrmacht",
+      "Waffen-SS"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The MP 40 was one of the first weapons to be made mostly from stamped steel and plastic rather than machined parts and wood. It was issued mainly to squad leaders, paratroopers and vehicle crews. Its folding stock made it compact for its era.",
+    "trivia": [
+      "It is often wrongly called a \"Schmeisser\" although Hugo Schmeisser did not design it."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/mp40.glb"
+  },
+  {
+    "id": "sten",
+    "name": "Sten",
+    "nickname": null,
+    "country": "United Kingdom",
+    "manufacturer": "Royal Small Arms Factory, Enfield",
+    "designer": "Reginald Shepherd and Harold Turpin",
+    "year": 1941,
+    "category": "submachine-guns",
+    "calibre": "9×19mm Parabellum",
+    "action": "Blowback",
+    "weightKg": 3.2,
+    "lengthMm": 760,
+    "capacity": 32,
+    "feed": "Detachable box magazine",
+    "users": [
+      "British Army",
+      "Commonwealth forces",
+      "European resistance groups"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The Sten was designed to be produced cheaply and quickly at a time when Britain urgently needed weapons. Several million were made, many in small workshops. It became closely linked with resistance movements in occupied Europe.",
+    "trivia": [
+      "Its name combines the designers' initials, S and T, with \"En\" for Enfield."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/sten.glb"
+  },
+  {
+    "id": "ppsh-41",
+    "name": "PPSh-41",
+    "nickname": "Papasha",
+    "country": "Soviet Union",
+    "manufacturer": "Various Soviet state factories",
+    "designer": "Georgy Shpagin",
+    "year": 1941,
+    "category": "submachine-guns",
+    "calibre": "7.62×25mm Tokarev",
+    "action": "Blowback",
+    "weightKg": 3.63,
+    "lengthMm": 843,
+    "capacity": 71,
+    "feed": "Drum magazine",
+    "users": [
+      "Red Army",
+      "Korean People's Army",
+      "People's Volunteer Army"
+    ],
+    "conflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "history": "The PPSh-41 was mass-produced in millions and armed entire Soviet units during the Second World War. It was built for simplicity, using stamped parts that small factories could make. Its large drum magazine became its visual signature.",
+    "trivia": [
+      "Soldiers nicknamed it \"Papasha\", meaning daddy."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/ppsh-41.glb"
+  },
+  {
+    "id": "m3-grease-gun",
+    "name": "M3 submachine gun",
+    "nickname": "Grease gun",
+    "country": "United States",
+    "manufacturer": "General Motors (Guide Lamp Division)",
+    "designer": "George Hyde",
+    "year": 1942,
+    "category": "submachine-guns",
+    "calibre": ".45 ACP",
+    "action": "Blowback",
+    "weightKg": 3.7,
+    "lengthMm": null,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Army",
+      "U.S. Marine Corps"
+    ],
+    "conflicts": [
+      "World War II",
+      "Korean War",
+      "Vietnam War"
+    ],
+    "history": "The M3 was designed as a cheaper, faster-to-build replacement for the Thompson. It was made largely by a car parts maker from stamped steel. Tank crews continued to carry it long after the Second World War.",
+    "trivia": [
+      "Its nickname \"grease gun\" comes from its resemblance to a mechanic's grease tool."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/m3-grease-gun.glb"
+  },
+  {
+    "id": "uzi",
+    "name": "Uzi",
+    "nickname": null,
+    "country": "Israel",
+    "manufacturer": "Israel Military Industries",
+    "designer": "Uziel Gal",
+    "year": 1954,
+    "category": "submachine-guns",
+    "calibre": "9×19mm Parabellum",
+    "action": "Blowback",
+    "weightKg": 3.5,
+    "lengthMm": 650,
+    "capacity": 32,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Israel Defense Forces",
+      "Many armies and police forces"
+    ],
+    "conflicts": [
+      "Suez Crisis",
+      "Six-Day War"
+    ],
+    "history": "The Uzi was compact, rugged and simple to produce, making it a major export success. Its magazine fits inside the pistol grip, which makes reloading in the dark intuitive. It became one of the most recognisable firearms of the late twentieth century.",
+    "trivia": [
+      "The designer, Uziel Gal, reportedly did not want the weapon named after him."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/uzi.glb"
+  },
+  {
+    "id": "mp5",
+    "name": "Heckler & Koch MP5",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 1966,
+    "category": "submachine-guns",
+    "calibre": "9×19mm Parabellum",
+    "action": "Roller-delayed blowback",
+    "weightKg": 2.5,
+    "lengthMm": 680,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "GSG 9",
+      "British SAS",
+      "Police units worldwide"
+    ],
+    "conflicts": [
+      "Iranian Embassy siege (1980)"
+    ],
+    "history": "The MP5 became the signature weapon of counter-terrorism and police tactical units from the 1970s onward. It was praised for its accuracy compared with simpler submachine guns. Dozens of variants were made, including compact and suppressed models.",
+    "trivia": [
+      "Its global fame was boosted by the televised 1980 Iranian Embassy siege in London."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/mp5.glb"
+  },
+  {
+    "id": "mac-10",
+    "name": "MAC-10",
+    "nickname": "M10",
+    "country": "United States",
+    "manufacturer": "Military Armament Corporation",
+    "designer": "Gordon Ingram",
+    "year": 1970,
+    "category": "submachine-guns",
+    "calibre": ".45 ACP / 9×19mm",
+    "action": "Blowback",
+    "weightKg": 2.84,
+    "lengthMm": null,
+    "capacity": 30,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Various police and special units"
+    ],
+    "conflicts": [],
+    "history": "The MAC-10 is a small, boxy machine pistol made from stamped steel. It was designed to be compact enough to carry like a large pistol. It became widely known through its appearances in film and television.",
+    "trivia": [
+      "It was often paired with a purpose-built suppressor designed by Mitchell WerBell III."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/mac-10.glb"
+  },
+  {
+    "id": "fn-p90",
+    "name": "FN P90",
+    "nickname": null,
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": null,
+    "year": 1990,
+    "category": "submachine-guns",
+    "calibre": "5.7×28mm",
+    "action": "Blowback",
+    "weightKg": 2.6,
+    "lengthMm": 500,
+    "capacity": 50,
+    "feed": "Top-mounted magazine",
+    "users": [
+      "Belgian Armed Forces",
+      "Many special forces and police units"
+    ],
+    "conflicts": [],
+    "history": "The P90 was designed as a personal defence weapon for vehicle crews, support troops and others who need something smaller than a rifle. Its translucent magazine lies flat along the top of the weapon. Its rounded, ergonomic shape looks unlike almost any other firearm.",
+    "trivia": [
+      "It ejects spent cases downward, making it equally usable from either shoulder."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/fn-p90.glb"
+  },
+  {
+    "id": "hk-ump",
+    "name": "Heckler & Koch UMP",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 1999,
+    "category": "submachine-guns",
+    "calibre": ".45 ACP",
+    "action": "Blowback",
+    "weightKg": 2.3,
+    "lengthMm": null,
+    "capacity": 25,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Police and border units in many countries"
+    ],
+    "conflicts": [],
+    "history": "The UMP was designed as a lighter, cheaper successor to the MP5 using extensive polymer construction. It was offered in larger pistol calibres popular with American law enforcement. Its square, angular form contrasts sharply with the MP5.",
+    "trivia": [
+      "\"UMP\" stands for Universale Maschinenpistole, meaning universal submachine gun."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/hk-ump.glb"
+  },
+  {
+    "id": "hk-mp7",
+    "name": "Heckler & Koch MP7",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 2001,
+    "category": "submachine-guns",
+    "calibre": "4.6×30mm",
+    "action": "Gas-operated",
+    "weightKg": 1.9,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Bundeswehr",
+      "Several special forces units"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The MP7 is a compact personal defence weapon designed around its own small, high-velocity cartridge. It sits between a pistol and a carbine in size. It was developed to meet a NATO requirement for a new class of compact weapon.",
+    "trivia": [
+      "It can be carried in a holster-like rig despite being a shoulder-fired weapon."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/hk-mp7.glb"
+  },
+  {
+    "id": "kriss-vector",
+    "name": "KRISS Vector",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "KRISS USA",
+    "designer": null,
+    "year": null,
+    "category": "submachine-guns",
+    "calibre": ".45 ACP",
+    "action": "Delayed blowback",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Various police units",
+      "Civilian market"
+    ],
+    "conflicts": [],
+    "history": "The Vector is known for its unusual, futuristic outline, with the barrel set low in line with the shooter's hand. It was designed with a focus on reducing felt recoil. It has become a favourite in films and video games.",
+    "trivia": [
+      "Its angular shape makes it one of the most instantly recognisable modern submachine guns."
+    ],
+    "era": null,
+    "modelPath": "/models/kriss-vector.glb"
+  },
+  {
+    "id": "lewis-gun",
+    "name": "Lewis gun",
+    "nickname": null,
+    "country": "United Kingdom",
+    "manufacturer": "Birmingham Small Arms Company",
+    "designer": "Isaac Newton Lewis",
+    "year": 1914,
+    "category": "machine-guns",
+    "calibre": ".303 British",
+    "action": "Gas-operated",
+    "weightKg": 12.7,
+    "lengthMm": 1283,
+    "capacity": 47,
+    "feed": "Pan magazine",
+    "users": [
+      "British Army",
+      "Royal Flying Corps",
+      "U.S. forces"
+    ],
+    "conflicts": [
+      "World War I"
+    ],
+    "history": "The Lewis gun was designed in the United States but first produced and adopted in large numbers in Britain. It was light enough to be carried forward with advancing infantry, unlike heavy water-cooled guns. It was also widely fitted to early military aircraft.",
+    "trivia": [
+      "Its large cooling shroud gives it a thick, cylindrical barrel profile."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/lewis-gun.glb"
+  },
+  {
+    "id": "bar-m1918",
+    "name": "Browning Automatic Rifle",
+    "nickname": "BAR",
+    "country": "United States",
+    "manufacturer": "Colt, Winchester and others",
+    "designer": "John Browning",
+    "year": 1918,
+    "category": "machine-guns",
+    "calibre": ".30-06 Springfield",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Army",
+      "U.S. Marine Corps"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II",
+      "Korean War"
+    ],
+    "history": "The BAR was intended to give advancing infantry automatic fire they could carry. It became the backbone of the U.S. infantry squad during the Second World War. It was used in the United States military until the Vietnam era.",
+    "trivia": [
+      "It was famously associated with outlaw Clyde Barrow in the 1930s."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/bar-m1918.glb"
+  },
+  {
+    "id": "mg-34",
+    "name": "MG 34",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Mauser and others",
+    "designer": "Heinrich Vollmer",
+    "year": 1936,
+    "category": "machine-guns",
+    "calibre": "7.92×57mm Mauser",
+    "action": "Recoil-operated",
+    "weightKg": 12.1,
+    "lengthMm": 1219,
+    "capacity": null,
+    "feed": "Belt-fed",
+    "users": [
+      "Wehrmacht"
+    ],
+    "conflicts": [
+      "Spanish Civil War",
+      "World War II"
+    ],
+    "history": "The MG 34 is often regarded as the first true general-purpose machine gun, able to serve on a bipod, tripod or vehicle mount. Its machined construction was excellent but slow and costly to produce. It was later supplemented by the simpler MG 42.",
+    "trivia": [
+      "It could be fed from belts or from a twin-drum magazine."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/mg-34.glb"
+  },
+  {
+    "id": "bren",
+    "name": "Bren gun",
+    "nickname": null,
+    "country": "United Kingdom",
+    "manufacturer": "Royal Small Arms Factory, Enfield",
+    "designer": "Václav Holek (ZB vz. 26 basis)",
+    "year": 1938,
+    "category": "machine-guns",
+    "calibre": ".303 British",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": 1156,
+    "capacity": 30,
+    "feed": "Top-mounted magazine",
+    "users": [
+      "British Army",
+      "Commonwealth forces"
+    ],
+    "conflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "history": "The Bren was a British adaptation of a Czechoslovak light machine gun. It was admired for its reliability and accuracy throughout the Second World War. Its curved top-mounted magazine is its defining visual feature.",
+    "trivia": [
+      "Its name combines Brno, where it was designed, with Enfield, where it was built."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/bren.glb"
+  },
+  {
+    "id": "mg-42",
+    "name": "MG 42",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Großfuß and others",
+    "designer": "Werner Gruner",
+    "year": 1942,
+    "category": "machine-guns",
+    "calibre": "7.92×57mm Mauser",
+    "action": "Recoil-operated",
+    "weightKg": 11.6,
+    "lengthMm": 1220,
+    "capacity": null,
+    "feed": "Belt-fed",
+    "users": [
+      "Wehrmacht"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The MG 42 was designed to be produced faster and more cheaply than the MG 34 by using stamped steel parts. It became known for an exceptionally high rate of fire. Its design lived on in the post-war German MG3.",
+    "trivia": [
+      "Allied troops nicknamed it \"Hitler's buzzsaw\" because of its distinctive sound."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/mg-42.glb"
+  },
+  {
+    "id": "m60",
+    "name": "M60",
+    "nickname": "The Pig",
+    "country": "United States",
+    "manufacturer": "Saco Defense",
+    "designer": null,
+    "year": 1957,
+    "category": "machine-guns",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 10.5,
+    "lengthMm": 1105,
+    "capacity": null,
+    "feed": "Belt-fed",
+    "users": [
+      "U.S. Armed Forces",
+      "Australian Army",
+      "Many others"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Gulf War"
+    ],
+    "history": "The M60 became the standard American general-purpose machine gun in the late 1950s. It became closely associated with the Vietnam War. It was gradually replaced by the M240 in most U.S. service roles.",
+    "trivia": [
+      "Troops nicknamed it \"the Pig\" because of its weight and bulk."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m60.glb"
+  },
+  {
+    "id": "fn-mag",
+    "name": "FN MAG",
+    "nickname": "M240 (U.S.)",
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": "Ernest Vervier",
+    "year": 1958,
+    "category": "machine-guns",
+    "calibre": "7.62×51mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 11.8,
+    "lengthMm": 1263,
+    "capacity": null,
+    "feed": "Belt-fed",
+    "users": [
+      "British Army (L7 GPMG)",
+      "U.S. Armed Forces (M240)",
+      "Over 80 countries"
+    ],
+    "conflicts": [
+      "Falklands War",
+      "Gulf War",
+      "War in Afghanistan"
+    ],
+    "history": "The FN MAG is one of the most widely used general-purpose machine guns in the world. It is valued for its reliability in very different climates. The United States adopted it as the M240.",
+    "trivia": [
+      "\"MAG\" stands for Mitrailleuse d'Appui Général, meaning general support machine gun."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/fn-mag.glb"
+  },
+  {
+    "id": "rpk",
+    "name": "RPK",
+    "nickname": null,
+    "country": "Soviet Union",
+    "manufacturer": "Vyatskiye Polyany Machine-Building Plant",
+    "designer": "Mikhail Kalashnikov",
+    "year": 1961,
+    "category": "machine-guns",
+    "calibre": "7.62×39mm",
+    "action": "Gas-operated",
+    "weightKg": 4.8,
+    "lengthMm": 1040,
+    "capacity": 40,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet Army",
+      "Warsaw Pact armies"
+    ],
+    "conflicts": [
+      "Vietnam War",
+      "Soviet–Afghan War"
+    ],
+    "history": "The RPK is a squad support weapon derived from the AKM, with a longer, heavier barrel and a bipod. Because it shares parts and magazines with the AKM, supply and training were simplified. It also accepts a 75-round drum.",
+    "trivia": [
+      "It can use standard AK magazines in an emergency."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/rpk.glb"
+  },
+  {
+    "id": "pkm",
+    "name": "PKM",
+    "nickname": null,
+    "country": "Soviet Union",
+    "manufacturer": "Degtyarev Plant",
+    "designer": "Mikhail Kalashnikov",
+    "year": 1969,
+    "category": "machine-guns",
+    "calibre": "7.62×54mmR",
+    "action": "Gas-operated",
+    "weightKg": 7.5,
+    "lengthMm": 1173,
+    "capacity": null,
+    "feed": "Belt-fed",
+    "users": [
+      "Soviet Army",
+      "Russian Armed Forces",
+      "Dozens of countries"
+    ],
+    "conflicts": [
+      "Soviet–Afghan War",
+      "Chechen Wars"
+    ],
+    "history": "The PKM is a lighter, modernised version of the PK general-purpose machine gun. It is known for being light for its class while firing a full-power rifle cartridge. It remains in widespread service around the world.",
+    "trivia": [
+      "\"PK\" stands for Pulemyot Kalashnikova, meaning Kalashnikov machine gun."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/pkm.glb"
+  },
+  {
+    "id": "m249",
+    "name": "M249 SAW",
+    "nickname": "FN Minimi (base design)",
+    "country": "United States",
+    "manufacturer": "FN Herstal",
+    "designer": null,
+    "year": 1984,
+    "category": "machine-guns",
+    "calibre": "5.56×45mm NATO",
+    "action": "Gas-operated",
+    "weightKg": 7.5,
+    "lengthMm": 1040,
+    "capacity": 200,
+    "feed": "Belt or box magazine",
+    "users": [
+      "U.S. Armed Forces"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "War in Afghanistan",
+      "Iraq War"
+    ],
+    "history": "The M249 is the American version of the Belgian FN Minimi light machine gun. It gave each U.S. fire team a belt-fed automatic weapon firing the same cartridge as their rifles. It served for several decades as a standard squad weapon.",
+    "trivia": [
+      "\"SAW\" stands for Squad Automatic Weapon."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/m249.glb"
+  },
+  {
+    "id": "winchester-1887",
+    "name": "Winchester Model 1887",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Winchester Repeating Arms Company",
+    "designer": "John Browning",
+    "year": 1887,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Lever-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "Civilian market",
+      "Lawmen"
+    ],
+    "conflicts": [],
+    "history": "The Model 1887 was one of the first successful repeating shotguns. Winchester requested a lever-action design to match its famous rifles, although Browning favoured a pump action. Its silhouette is now strongly tied to Western and action films.",
+    "trivia": [
+      "It appeared in Terminator 2: Judgment Day in a memorable scene."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/winchester-1887.glb"
+  },
+  {
+    "id": "winchester-1897",
+    "name": "Winchester Model 1897",
+    "nickname": "Trench gun",
+    "country": "United States",
+    "manufacturer": "Winchester Repeating Arms Company",
+    "designer": "John Browning",
+    "year": 1897,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Pump-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "U.S. Army (World War I)",
+      "Civilian market"
+    ],
+    "conflicts": [
+      "World War I"
+    ],
+    "history": "The Model 1897 was a successful pump-action shotgun that sold in large numbers to hunters. A version with a heat shield and bayonet lug served U.S. troops in the trenches of the First World War. It remained in production until 1957.",
+    "trivia": [
+      "Its external hammer distinguished it from later hammerless pump shotguns."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/winchester-1897.glb"
+  },
+  {
+    "id": "browning-auto-5",
+    "name": "Browning Auto-5",
+    "nickname": "A-5",
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": "John Browning",
+    "year": 1902,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Recoil-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "Civilian market",
+      "Various military units"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The Auto-5 was the first mass-produced semi-automatic shotgun. Its squared-off rear receiver earned it the nickname \"humpback\". It stayed in production for most of the twentieth century.",
+    "trivia": [
+      "Browning took the design to FN in Belgium after a dispute with Winchester."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/browning-auto-5.glb"
+  },
+  {
+    "id": "ithaca-37",
+    "name": "Ithaca 37",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Ithaca Gun Company",
+    "designer": null,
+    "year": 1937,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Pump-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "U.S. Armed Forces",
+      "Many police departments"
+    ],
+    "conflicts": [
+      "World War II",
+      "Vietnam War"
+    ],
+    "history": "The Ithaca 37 is a pump-action shotgun that ejects spent shells through the bottom of the receiver. That makes it equally convenient for right- and left-handed shooters. It has been one of the longest-running pump shotguns in production.",
+    "trivia": [
+      "Bottom ejection keeps the receiver sides closed, giving it a clean, smooth outline."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/ithaca-37.glb"
+  },
+  {
+    "id": "remington-870",
+    "name": "Remington 870",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Remington Arms",
+    "designer": null,
+    "year": 1950,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Pump-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "U.S. police departments",
+      "U.S. military",
+      "Civilian market"
+    ],
+    "conflicts": [],
+    "history": "The Remington 870 is one of the best-selling shotguns in history, with over ten million made. It has been used for hunting, sport shooting and by police forces for decades. Its steel receiver gave it a reputation for durability.",
+    "trivia": [
+      "It is widely cited as the best-selling shotgun of all time."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/remington-870.glb"
+  },
+  {
+    "id": "mossberg-500",
+    "name": "Mossberg 500",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "O.F. Mossberg & Sons",
+    "designer": null,
+    "year": 1961,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Pump-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "U.S. Armed Forces (590 variant)",
+      "Many police departments"
+    ],
+    "conflicts": [
+      "Gulf War"
+    ],
+    "history": "The Mossberg 500 is a pump-action shotgun known for its top-mounted safety, convenient for both hands. It became one of the most popular shotguns for hunting and law enforcement. The related Mossberg 590 was adopted by the U.S. military.",
+    "trivia": [
+      "The tang safety sits on top of the receiver, where the thumb rests naturally."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/mossberg-500.glb"
+  },
+  {
+    "id": "aa-12",
+    "name": "Auto Assault-12",
+    "nickname": "AA-12",
+    "country": "United States",
+    "manufacturer": "Military Police Systems",
+    "designer": "Maxwell Atchisson",
+    "year": 1972,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 8,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Limited military testing"
+    ],
+    "conflicts": [],
+    "history": "The AA-12 began as a 1970s design by Maxwell Atchisson and was later redeveloped by other companies. It is a fully automatic shotgun that feeds from box or drum magazines. Its very low recoil for its class became its headline feature.",
+    "trivia": [
+      "It also accepts a 20- or 32-round drum."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/aa-12.glb"
+  },
+  {
+    "id": "spas-12",
+    "name": "Franchi SPAS-12",
+    "nickname": null,
+    "country": "Italy",
+    "manufacturer": "Luigi Franchi S.p.A.",
+    "designer": null,
+    "year": 1979,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Selectable pump / semi-automatic",
+    "weightKg": 4.4,
+    "lengthMm": 1041,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "Various military and police units"
+    ],
+    "conflicts": [],
+    "history": "The SPAS-12 is a combat shotgun that can be switched between pump and semi-automatic operation. Its folding stock with a distinctive hook and its heavy, angular look made it a film favourite. It was marketed to military and police users.",
+    "trivia": [
+      "It appears in The Terminator and Jurassic Park."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/spas-12.glb"
+  },
+  {
+    "id": "saiga-12",
+    "name": "Saiga-12",
+    "nickname": null,
+    "country": "Russia",
+    "manufacturer": "Izhmash (Kalashnikov Concern)",
+    "designer": null,
+    "year": null,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Gas-operated",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Civilian market",
+      "Russian security units"
+    ],
+    "conflicts": [],
+    "history": "The Saiga-12 is a semi-automatic shotgun built on the Kalashnikov rifle layout. It feeds from detachable box magazines rather than a tube. It was developed for the hunting and civilian market.",
+    "trivia": [
+      "It is named after the saiga antelope of the Eurasian steppe."
+    ],
+    "era": null,
+    "modelPath": "/models/saiga-12.glb"
+  },
+  {
+    "id": "benelli-m4",
+    "name": "Benelli M4",
+    "nickname": "M1014 (U.S.)",
+    "country": "Italy",
+    "manufacturer": "Benelli Armi",
+    "designer": null,
+    "year": 1999,
+    "category": "shotguns",
+    "calibre": "12 gauge",
+    "action": "Gas-operated",
+    "weightKg": 3.82,
+    "lengthMm": 1010,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "U.S. Marine Corps",
+      "British Armed Forces",
+      "Many others"
+    ],
+    "conflicts": [
+      "Iraq War",
+      "War in Afghanistan"
+    ],
+    "history": "The Benelli M4 was selected by the U.S. Marine Corps as its semi-automatic combat shotgun, designated the M1014. It was the first gas-operated shotgun made by Benelli. It is valued for working with a wide variety of shell types without adjustment.",
+    "trivia": [
+      "It won a U.S. military competition for a new joint service combat shotgun."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/benelli-m4.glb"
+  },
+  {
+    "id": "mauser-c96",
+    "name": "Mauser C96",
+    "nickname": "Broomhandle",
+    "country": "Germany",
+    "manufacturer": "Mauser",
+    "designer": "Feederle brothers",
+    "year": 1896,
+    "category": "pistols",
+    "calibre": "7.63×25mm Mauser",
+    "action": "Short recoil",
+    "weightKg": 1.13,
+    "lengthMm": 312,
+    "capacity": 10,
+    "feed": "Fixed box magazine",
+    "users": [
+      "German Empire",
+      "Chinese armies",
+      "Many others"
+    ],
+    "conflicts": [
+      "Second Boer War",
+      "World War I",
+      "Russian Civil War"
+    ],
+    "history": "The C96 was one of the first commercially successful semi-automatic pistols. Its magazine sits in front of the trigger guard, and its wooden holster doubles as a shoulder stock. It sold widely to officers, adventurers and armies around the world.",
+    "trivia": [
+      "A young Winston Churchill carried one at the Battle of Omdurman in 1898.",
+      "It is nicknamed \"Broomhandle\" after the shape of its grip."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/mauser-c96.glb"
+  },
+  {
+    "id": "luger-p08",
+    "name": "Luger P08",
+    "nickname": "Parabellum",
+    "country": "Germany",
+    "manufacturer": "DWM and others",
+    "designer": "Georg Luger",
+    "year": 1908,
+    "category": "pistols",
+    "calibre": "9×19mm Parabellum",
+    "action": "Short recoil",
+    "weightKg": 0.87,
+    "lengthMm": 222,
+    "capacity": 8,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Imperial German Army",
+      "Wehrmacht",
+      "Swiss Army"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II"
+    ],
+    "history": "The Luger is famous for its toggle-locked design and sharply raked grip. It introduced the 9×19mm Parabellum cartridge, which became the most widely used pistol round in the world. It was a prized souvenir among Allied soldiers in both world wars.",
+    "trivia": [
+      "Its 9mm cartridge is still widely called \"9mm Luger\" today."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/luger-p08.glb"
+  },
+  {
+    "id": "colt-m1911",
+    "name": "Colt M1911",
+    "nickname": "Model 1911",
+    "country": "United States",
+    "manufacturer": "Colt",
+    "designer": "John Browning",
+    "year": 1911,
+    "category": "pistols",
+    "calibre": ".45 ACP",
+    "action": "Short recoil",
+    "weightKg": 1.1,
+    "lengthMm": 216,
+    "capacity": 7,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Armed Forces",
+      "Many police forces"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II",
+      "Korean War",
+      "Vietnam War"
+    ],
+    "history": "The M1911 served as the standard U.S. military sidearm for over seventy years. Its basic design has been copied by dozens of manufacturers. It remains one of the most popular pistol designs in the world.",
+    "trivia": [
+      "It was the standard U.S. service pistol from 1911 until 1985."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/colt-m1911.glb"
+  },
+  {
+    "id": "tt-33",
+    "name": "TT-33 Tokarev",
+    "nickname": "TT",
+    "country": "Soviet Union",
+    "manufacturer": "Tula Arms Plant",
+    "designer": "Fedor Tokarev",
+    "year": 1933,
+    "category": "pistols",
+    "calibre": "7.62×25mm Tokarev",
+    "action": "Short recoil",
+    "weightKg": 0.85,
+    "lengthMm": 194,
+    "capacity": 8,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Red Army",
+      "Warsaw Pact armies",
+      "Chinese PLA (Type 54)"
+    ],
+    "conflicts": [
+      "World War II",
+      "Korean War",
+      "Vietnam War"
+    ],
+    "history": "The TT-33 was the standard Soviet service pistol through the Second World War. It shares some design ideas with Browning pistols but simplified them for mass production. It was copied in China, Yugoslavia and elsewhere.",
+    "trivia": [
+      "\"TT\" stands for Tula-Tokarev, after the arsenal and the designer."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/tt-33.glb"
+  },
+  {
+    "id": "walther-ppk",
+    "name": "Walther PPK",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Carl Walther GmbH",
+    "designer": null,
+    "year": 1931,
+    "category": "pistols",
+    "calibre": ".32 ACP / .380 ACP",
+    "action": "Blowback",
+    "weightKg": 0.59,
+    "lengthMm": 155,
+    "capacity": 7,
+    "feed": "Detachable box magazine",
+    "users": [
+      "German police",
+      "Many European police forces"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The PPK is a shorter version of the Walther PP, designed for police detectives and plain-clothes officers. Its compact size and smooth lines made it popular for concealed carry. It remains in production in updated forms.",
+    "trivia": [
+      "It is the pistol most associated with the fictional spy James Bond."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/walther-ppk.glb"
+  },
+  {
+    "id": "browning-hi-power",
+    "name": "Browning Hi-Power",
+    "nickname": "HP-35",
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": "John Browning and Dieudonné Saive",
+    "year": 1935,
+    "category": "pistols",
+    "calibre": "9×19mm Parabellum",
+    "action": "Short recoil",
+    "weightKg": 1,
+    "lengthMm": 197,
+    "capacity": 13,
+    "feed": "Detachable box magazine",
+    "users": [
+      "British Army",
+      "Canadian Army",
+      "Over 50 countries"
+    ],
+    "conflicts": [
+      "World War II",
+      "Falklands War"
+    ],
+    "history": "The Hi-Power was among the first pistols to use a large double-stack magazine holding thirteen rounds. Browning started the design before his death, and Saive completed it at FN. Both Allied and Axis forces used it during the Second World War.",
+    "trivia": [
+      "Its name refers to its high magazine capacity, unusual for the 1930s."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/browning-hi-power.glb"
+  },
+  {
+    "id": "walther-p38",
+    "name": "Walther P38",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Carl Walther GmbH",
+    "designer": null,
+    "year": 1938,
+    "category": "pistols",
+    "calibre": "9×19mm Parabellum",
+    "action": "Short recoil",
+    "weightKg": 0.8,
+    "lengthMm": 216,
+    "capacity": 8,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Wehrmacht",
+      "Bundeswehr (P1)"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The P38 was intended to replace the costly Luger as Germany's service pistol. It was one of the first military pistols with a double-action first shot. It served again in the post-war Bundeswehr under the name P1.",
+    "trivia": [
+      "The post-war P1 used an aluminium frame to save weight."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/walther-p38.glb"
+  },
+  {
+    "id": "makarov-pm",
+    "name": "Makarov PM",
+    "nickname": "PM",
+    "country": "Soviet Union",
+    "manufacturer": "Izhevsk Mechanical Plant",
+    "designer": "Nikolay Makarov",
+    "year": 1951,
+    "category": "pistols",
+    "calibre": "9×18mm Makarov",
+    "action": "Blowback",
+    "weightKg": 0.73,
+    "lengthMm": 161,
+    "capacity": 8,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Soviet Army",
+      "Russian police",
+      "Warsaw Pact countries"
+    ],
+    "conflicts": [
+      "Soviet–Afghan War",
+      "Chechen Wars"
+    ],
+    "history": "The Makarov replaced the TT-33 as the standard Soviet sidearm. Its simple design has very few parts, and it is known for reliability. It was produced in very large numbers in the USSR and abroad.",
+    "trivia": [
+      "\"PM\" stands for Pistolet Makarova, meaning Makarov's pistol."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/makarov-pm.glb"
+  },
+  {
+    "id": "beretta-92",
+    "name": "Beretta 92",
+    "nickname": "M9 (U.S.)",
+    "country": "Italy",
+    "manufacturer": "Beretta",
+    "designer": null,
+    "year": 1975,
+    "category": "pistols",
+    "calibre": "9×19mm Parabellum",
+    "action": "Short recoil",
+    "weightKg": 0.95,
+    "lengthMm": 217,
+    "capacity": 15,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Armed Forces (M9)",
+      "Italian Armed Forces",
+      "Many police forces"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "Iraq War",
+      "War in Afghanistan"
+    ],
+    "history": "The Beretta 92 is known for its open-top slide and elegant lines. The U.S. military adopted a version as the M9 in 1985 to replace the M1911. It is also one of the most recognisable pistols in film.",
+    "trivia": [
+      "Beretta is one of the oldest active firearms makers, dating back to the 1500s."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/beretta-92.glb"
+  },
+  {
+    "id": "glock-17",
+    "name": "Glock 17",
+    "nickname": null,
+    "country": "Austria",
+    "manufacturer": "Glock",
+    "designer": "Gaston Glock",
+    "year": 1982,
+    "category": "pistols",
+    "calibre": "9×19mm Parabellum",
+    "action": "Short recoil",
+    "weightKg": 0.63,
+    "lengthMm": null,
+    "capacity": 17,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Austrian Armed Forces",
+      "Many police forces worldwide"
+    ],
+    "conflicts": [],
+    "history": "The Glock 17 was its maker's first firearm, created for an Austrian Army pistol trial. Its polymer frame and simple controls were controversial at first but soon widely imitated. It became one of the most common police pistols in the world.",
+    "trivia": [
+      "Gaston Glock had no previous firearms design experience; his company made curtain rods and knives."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/glock-17.glb"
+  },
+  {
+    "id": "desert-eagle",
+    "name": "Desert Eagle",
+    "nickname": null,
+    "country": "Israel / United States",
+    "manufacturer": "Magnum Research and Israel Military Industries",
+    "designer": null,
+    "year": 1983,
+    "category": "pistols",
+    "calibre": ".50 Action Express",
+    "action": "Gas-operated",
+    "weightKg": 2,
+    "lengthMm": 267,
+    "capacity": 7,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Civilian market"
+    ],
+    "conflicts": [],
+    "history": "The Desert Eagle is a very large semi-automatic pistol designed for powerful magnum cartridges usually associated with revolvers. It is far more common in films and games than in any service role. Its bold triangular barrel is instantly recognisable.",
+    "trivia": [
+      "It has appeared in hundreds of films, making it one of cinema's most recognisable pistols."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/desert-eagle.glb"
+  },
+  {
+    "id": "sig-p226",
+    "name": "SIG Sauer P226",
+    "nickname": null,
+    "country": "Switzerland / Germany",
+    "manufacturer": "SIG Sauer",
+    "designer": null,
+    "year": 1984,
+    "category": "pistols",
+    "calibre": "9×19mm Parabellum",
+    "action": "Short recoil",
+    "weightKg": 0.96,
+    "lengthMm": 196,
+    "capacity": 15,
+    "feed": "Detachable box magazine",
+    "users": [
+      "U.S. Navy SEALs",
+      "British Armed Forces",
+      "Many police forces"
+    ],
+    "conflicts": [
+      "Gulf War",
+      "War in Afghanistan"
+    ],
+    "history": "The P226 was designed for the U.S. pistol trials of the early 1980s and narrowly missed adoption. It went on to be chosen by many elite units and police forces. It is admired for its accuracy and reliability.",
+    "trivia": [
+      "U.S. Navy SEALs used a version designated the Mk 25."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/sig-p226.glb"
+  },
+  {
+    "id": "hk-usp",
+    "name": "Heckler & Koch USP",
+    "nickname": null,
+    "country": "Germany",
+    "manufacturer": "Heckler & Koch",
+    "designer": null,
+    "year": 1993,
+    "category": "pistols",
+    "calibre": "9×19mm / .40 S&W / .45 ACP",
+    "action": "Short recoil",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Bundeswehr (P8)",
+      "Many police forces"
+    ],
+    "conflicts": [
+      "War in Afghanistan"
+    ],
+    "history": "The USP was Heckler & Koch's first pistol designed with the American market in mind. It was introduced in .40 S&W before 9mm and .45 versions followed. Germany adopted a variant as the P8.",
+    "trivia": [
+      "\"USP\" stands for Universelle Selbstladepistole, meaning universal self-loading pistol."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/hk-usp.glb"
+  },
+  {
+    "id": "fn-five-seven",
+    "name": "FN Five-seveN",
+    "nickname": null,
+    "country": "Belgium",
+    "manufacturer": "FN Herstal",
+    "designer": null,
+    "year": 2000,
+    "category": "pistols",
+    "calibre": "5.7×28mm",
+    "action": "Delayed blowback",
+    "weightKg": 0.61,
+    "lengthMm": 208,
+    "capacity": 20,
+    "feed": "Detachable box magazine",
+    "users": [
+      "Belgian Armed Forces",
+      "Many police and special units"
+    ],
+    "conflicts": [],
+    "history": "The Five-seveN was designed as a companion pistol to the P90, using the same small 5.7mm cartridge. Its long, slim polymer frame holds a high-capacity magazine. Its stylised name highlights the \"five\" and \"N\" of FN.",
+    "trivia": [
+      "The capital letters in its name spell out \"FN\"."
+    ],
+    "era": "Modern",
+    "modelPath": "/models/fn-five-seven.glb"
+  },
+  {
+    "id": "colt-saa",
+    "name": "Colt Single Action Army",
+    "nickname": "Peacemaker",
+    "country": "United States",
+    "manufacturer": "Colt",
+    "designer": null,
+    "year": 1873,
+    "category": "revolvers",
+    "calibre": ".45 Colt",
+    "action": "Single-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 6,
+    "feed": "Cylinder",
+    "users": [
+      "U.S. Army",
+      "Lawmen and civilians"
+    ],
+    "conflicts": [
+      "American Indian Wars",
+      "Spanish–American War"
+    ],
+    "history": "The Single Action Army became the defining revolver of the American West. It was adopted by the U.S. Army in 1873 and sold widely to civilians. It remains in production today, largely unchanged in appearance.",
+    "trivia": [
+      "It is often called \"the gun that won the West\", a title shared with the Winchester 1873."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/colt-saa.glb"
+  },
+  {
+    "id": "nagant-m1895",
+    "name": "Nagant M1895",
+    "nickname": null,
+    "country": "Russian Empire",
+    "manufacturer": "Tula Arms Plant",
+    "designer": "Léon Nagant",
+    "year": 1895,
+    "category": "revolvers",
+    "calibre": "7.62×38mmR",
+    "action": "Double-action",
+    "weightKg": 0.8,
+    "lengthMm": 235,
+    "capacity": 7,
+    "feed": "Cylinder",
+    "users": [
+      "Imperial Russian Army",
+      "Red Army",
+      "Soviet police"
+    ],
+    "conflicts": [
+      "Russo-Japanese War",
+      "World War I",
+      "World War II"
+    ],
+    "history": "The Nagant M1895 was designed by a Belgian and adopted by the Russian Empire. It is known for its unusual design that pushes the cylinder forward to seal the gap with the barrel. It remained in Soviet service through the Second World War.",
+    "trivia": [
+      "It is one of the few revolvers that can be effectively suppressed due to its gas-seal design."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/nagant-m1895.glb"
+  },
+  {
+    "id": "sw-model-10",
+    "name": "Smith & Wesson Model 10",
+    "nickname": "Military & Police",
+    "country": "United States",
+    "manufacturer": "Smith & Wesson",
+    "designer": null,
+    "year": 1899,
+    "category": "revolvers",
+    "calibre": ".38 Special",
+    "action": "Double-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 6,
+    "feed": "Cylinder",
+    "users": [
+      "U.S. police departments",
+      "Allied forces in World War II"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II"
+    ],
+    "history": "The Model 10 is one of the most widely produced revolvers of the twentieth century, with millions made. It served as the standard sidearm for countless American police departments. It also armed many Allied troops during the Second World War.",
+    "trivia": [
+      "It has been in continuous production since 1899."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/sw-model-10.glb"
+  },
+  {
+    "id": "webley-mk-vi",
+    "name": "Webley Mk VI",
+    "nickname": null,
+    "country": "United Kingdom",
+    "manufacturer": "Webley & Scott",
+    "designer": null,
+    "year": 1915,
+    "category": "revolvers",
+    "calibre": ".455 Webley",
+    "action": "Double-action",
+    "weightKg": 1.1,
+    "lengthMm": 286,
+    "capacity": 6,
+    "feed": "Cylinder",
+    "users": [
+      "British Army",
+      "Commonwealth forces"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II"
+    ],
+    "history": "The Webley Mk VI was the British service revolver of the First World War. Its top-break frame opens to eject all spent cases at once, speeding up reloading. It was a sturdy, large-framed revolver suited to trench conditions.",
+    "trivia": [
+      "A bayonet was produced for it during the First World War."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/webley-mk-vi.glb"
+  },
+  {
+    "id": "colt-python",
+    "name": "Colt Python",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Colt",
+    "designer": null,
+    "year": 1955,
+    "category": "revolvers",
+    "calibre": ".357 Magnum",
+    "action": "Double-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 6,
+    "feed": "Cylinder",
+    "users": [
+      "U.S. police departments",
+      "Civilian market"
+    ],
+    "conflicts": [],
+    "history": "The Colt Python is often regarded as one of the finest production revolvers ever made, known for its hand-fitted finish. Its ventilated rib and full-length underlug give it a distinctive profile. It was reintroduced by Colt in 2020 after a long absence.",
+    "trivia": [
+      "Collectors sometimes call it \"the Rolls-Royce of revolvers\"."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/colt-python.glb"
+  },
+  {
+    "id": "sw-model-29",
+    "name": "Smith & Wesson Model 29",
+    "nickname": null,
+    "country": "United States",
+    "manufacturer": "Smith & Wesson",
+    "designer": null,
+    "year": 1955,
+    "category": "revolvers",
+    "calibre": ".44 Magnum",
+    "action": "Double-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 6,
+    "feed": "Cylinder",
+    "users": [
+      "Civilian market"
+    ],
+    "conflicts": [],
+    "history": "The Model 29 was introduced alongside the .44 Magnum cartridge and for years was promoted as the most powerful handgun in production. Demand soared after it starred in the 1971 film Dirty Harry. It became a symbol of 1970s cinema.",
+    "trivia": [
+      "It was carried by Clint Eastwood's character in Dirty Harry."
+    ],
+    "era": "Cold War",
+    "modelPath": "/models/sw-model-29.glb"
+  },
+  {
+    "id": "winchester-1873",
+    "name": "Winchester Model 1873",
+    "nickname": "The gun that won the West",
+    "country": "United States",
+    "manufacturer": "Winchester Repeating Arms Company",
+    "designer": null,
+    "year": 1873,
+    "category": "historic-rifles",
+    "calibre": ".44-40 Winchester",
+    "action": "Lever-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": null,
+    "feed": "Tubular magazine",
+    "users": [
+      "Settlers, ranchers and lawmen"
+    ],
+    "conflicts": [
+      "American Indian Wars"
+    ],
+    "history": "The Winchester 1873 was one of the most popular repeating rifles of the American frontier. Its cartridge could also be used in many revolvers, letting a user carry one type of ammunition. It became an icon of Western history and film.",
+    "trivia": [
+      "A 1950 film named Winchester '73 was built around the rifle."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/winchester-1873.glb"
+  },
+  {
+    "id": "mosin-nagant",
+    "name": "Mosin–Nagant",
+    "nickname": null,
+    "country": "Russian Empire",
+    "manufacturer": "Tula, Izhevsk and Sestroretsk arsenals",
+    "designer": "Sergei Mosin and Léon Nagant",
+    "year": 1891,
+    "category": "historic-rifles",
+    "calibre": "7.62×54mmR",
+    "action": "Bolt-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 5,
+    "feed": "Internal magazine",
+    "users": [
+      "Imperial Russian Army",
+      "Red Army",
+      "Finnish Army"
+    ],
+    "conflicts": [
+      "Russo-Japanese War",
+      "World War I",
+      "World War II",
+      "Winter War"
+    ],
+    "history": "The Mosin–Nagant served Russia and the Soviet Union for over half a century, with tens of millions produced. Its cartridge, introduced at the same time, remains in military use today. It was also widely used by Finland and many other nations.",
+    "trivia": [
+      "Its 7.62×54mmR cartridge is one of the longest-serving military rounds in history."
+    ],
+    "era": "Pre-1900",
+    "modelPath": "/models/mosin-nagant.glb"
+  },
+  {
+    "id": "springfield-m1903",
+    "name": "M1903 Springfield",
+    "nickname": "Springfield",
+    "country": "United States",
+    "manufacturer": "Springfield Armory",
+    "designer": null,
+    "year": 1903,
+    "category": "historic-rifles",
+    "calibre": ".30-06 Springfield",
+    "action": "Bolt-action",
+    "weightKg": 3.9,
+    "lengthMm": 1098,
+    "capacity": 5,
+    "feed": "Internal magazine",
+    "users": [
+      "U.S. Army",
+      "U.S. Marine Corps"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II"
+    ],
+    "history": "The M1903 was the standard U.S. service rifle in the First World War. Its design borrowed heavily from the Mauser rifles of the day. It continued to serve as a sniper rifle into the Second World War and Korea.",
+    "trivia": [
+      "The U.S. government paid Mauser royalties for features used in its design."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/springfield-m1903.glb"
+  },
+  {
+    "id": "lee-enfield-smle",
+    "name": "Lee–Enfield SMLE Mk III",
+    "nickname": "SMLE",
+    "country": "United Kingdom",
+    "manufacturer": "Royal Small Arms Factory, Enfield",
+    "designer": "James Paris Lee",
+    "year": 1907,
+    "category": "historic-rifles",
+    "calibre": ".303 British",
+    "action": "Bolt-action",
+    "weightKg": 3.9,
+    "lengthMm": 1132,
+    "capacity": 10,
+    "feed": "Internal magazine",
+    "users": [
+      "British Army",
+      "Commonwealth forces"
+    ],
+    "conflicts": [
+      "World War I",
+      "World War II"
+    ],
+    "history": "The Short Magazine Lee–Enfield was the British and Commonwealth infantry rifle of the First World War. Its ten-round magazine and fast bolt let trained soldiers fire unusually quickly for a bolt-action rifle. Variants served well beyond the Second World War.",
+    "trivia": [
+      "The \"mad minute\" drill tested how many aimed shots a soldier could fire in one minute."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/lee-enfield-smle.glb"
+  },
+  {
+    "id": "kar98k",
+    "name": "Karabiner 98k",
+    "nickname": "Kar98k",
+    "country": "Germany",
+    "manufacturer": "Mauser and others",
+    "designer": "Paul Mauser (Gewehr 98 basis)",
+    "year": 1935,
+    "category": "historic-rifles",
+    "calibre": "7.92×57mm Mauser",
+    "action": "Bolt-action",
+    "weightKg": 3.7,
+    "lengthMm": 1110,
+    "capacity": 5,
+    "feed": "Internal magazine",
+    "users": [
+      "Wehrmacht"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The Kar98k was the standard German infantry rifle of the Second World War. It was a shortened development of the Gewehr 98 from 1898. Millions were made, and post-war armies continued to use them for years.",
+    "trivia": [
+      "\"Karabiner\" means carbine, and \"k\" stands for \"kurz\", meaning short."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/kar98k.glb"
+  },
+  {
+    "id": "arisaka-type-99",
+    "name": "Arisaka Type 99",
+    "nickname": null,
+    "country": "Japan",
+    "manufacturer": "Various Japanese arsenals",
+    "designer": null,
+    "year": 1939,
+    "category": "historic-rifles",
+    "calibre": "7.7×58mm Arisaka",
+    "action": "Bolt-action",
+    "weightKg": null,
+    "lengthMm": null,
+    "capacity": 5,
+    "feed": "Internal magazine",
+    "users": [
+      "Imperial Japanese Army"
+    ],
+    "conflicts": [
+      "World War II"
+    ],
+    "history": "The Type 99 replaced the earlier Type 38 rifle with a more powerful cartridge. It was the main Japanese infantry rifle of the Second World War. Late-war versions were simplified to speed up production.",
+    "trivia": [
+      "Early models had a folding wire monopod under the forend."
+    ],
+    "era": "1900–1945",
+    "modelPath": "/models/arisaka-type-99.glb"
+  }
+]
