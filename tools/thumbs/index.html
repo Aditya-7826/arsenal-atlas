@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thumbnail renderer</title>
+    <style>
+      body { margin: 0; background: #0b0b0c; color: #ccc; font: 12px system-ui, sans-serif; }
+      #sheet { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; padding: 4px; }
+      figure { margin: 0; background: #17171a; }
+      figure img { display: block; width: 100%; }
+      figcaption { padding: 2px 4px; }
+    </style>
+  </head>
+  <body>
+    <!-- Dev-only page: open /tools/thumbs/?save=1 with `npm run dev` running to regenerate public/thumbs. -->
+    <div id="status">Rendering…</div>
+    <div id="sheet"></div>
+    <script type="module" src="./render.ts"></script>
+  </body>
+</html>

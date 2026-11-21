@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig, type Plugin } from 'vite'
-import { readdirSync, readFileSync, existsSync } from 'node:fs'
+import { readdirSync, readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
 /**
@@ -27,6 +27,34 @@ function modelManifest(): Plugin {
   }
 }
 
+/**
+ * Dev-only: tools/thumbs/ POSTs rendered thumbnails to /__thumbs/<id>,
+ * written to public/thumbs/<id>.webp. Not part of the production build.
+ */
+function thumbnailWriter(): Plugin {
+  return {
+    name: 'thumbnail-writer',
+    apply: 'serve',
+    configureServer(server) {
+      server.middlewares.use('/__thumbs/', (req, res) => {
+        const id = (req.url ?? '').replace(/^\//, '')
+        if (req.method !== 'POST' || !/^[a-z0-9-]+$/.test(id)) {
+          res.statusCode = 400
+          return res.end()
+        }
+        const chunks: Buffer[] = []
+        req.on('data', (c: Buffer) => chunks.push(c))
+        req.on('end', () => {
+          const dir = resolve(import.meta.dirname, 'public/thumbs')
+          mkdirSync(dir, { recursive: true })
+          writeFileSync(resolve(dir, `${id}.webp`), Buffer.concat(chunks))
+          res.end('ok')
+        })
+      })
+    },
+  }
+}
+
 /** The global security headers from vercel.json, so `npm run preview` behaves like production. */
 function productionHeaders(): Record<string, string> {
   const cfg = JSON.parse(readFileSync(resolve(import.meta.dirname, 'vercel.json'), 'utf8')) as {
@@ -37,7 +65,7 @@ function productionHeaders(): Record<string, string> {
 }
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), modelManifest()],
+  plugins: [react(), tailwindcss(), modelManifest(), thumbnailWriter()],
   build: { chunkSizeWarningLimit: 1500 },
   preview: { headers: productionHeaders() },
 })
