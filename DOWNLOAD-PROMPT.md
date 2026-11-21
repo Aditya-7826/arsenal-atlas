@@ -56,68 +56,68 @@ THE LIST (id | name | country, year)
 15. hk-g36 | Heckler & Koch G36 | Germany, 1997
 16. famas | FAMAS (Le Clairon (The Bugle)) | France, 1978
 17. steyr-aug | Steyr AUG | Austria, 1978
-19. galil | IMI Galil | Israel, 1972
-20. tavor | IWI Tavor TAR-21 (Tavor) | Israel, 2001
-21. scar-l | FN SCAR-L (Mk 16) | Belgium, 2009
-22. hk416 | Heckler & Koch HK416 | Germany, 2005
-25. svt-40 | SVT-40 (Sveta) | Soviet Union, 1940
-26. sks | SKS (Simonov) | Soviet Union, 1945
-27. fn-fal | FN FAL | Belgium, 1953
-29. m14 | M14 | United States, 1959
-30. hk-g3 | Heckler & Koch G3 | Germany, 1959
-31. scar-h | FN SCAR-H (Mk 17) | Belgium, 2009
-32. svd-dragunov | SVD Dragunov (Dragunov) | Soviet Union, 1963
-34. steyr-ssg-69 | Steyr SSG 69 | Austria, 1969
-35. m40 | M40 | United States, 1966
-36. vss-vintorez | VSS Vintorez (Vintorez (Thread cutter)) | Soviet Union, 1987
-37. l96a1 | Accuracy International L96A1 | United Kingdom, 1985
-38. m24 | M24 Sniper Weapon System (M24) | United States, 1988
-40. mk14-ebr | Mk 14 Enhanced Battle Rifle (Mk 14 EBR) | United States, 2004
-42. l115a3 | Accuracy International L115A3 (AWM) | United Kingdom, 2008
-43. mp40 | MP 40 | Germany, 1940
-44. sten | Sten | United Kingdom, 1941
-45. ppsh-41 | PPSh-41 (Papasha) | Soviet Union, 1941
-46. m3-grease-gun | M3 submachine gun (Grease gun) | United States, 1942
-47. uzi | Uzi | Israel, 1954
-48. mp5 | Heckler & Koch MP5 | Germany, 1966
-49. mac-10 | MAC-10 (M10) | United States, 1970
-50. fn-p90 | FN P90 | Belgium, 1990
-51. hk-ump | Heckler & Koch UMP | Germany, 1999
-52. hk-mp7 | Heckler & Koch MP7 | Germany, 2001
-53. kriss-vector | KRISS Vector | United States
-54. lewis-gun | Lewis gun | United Kingdom, 1914
-55. bar-m1918 | Browning Automatic Rifle (BAR) | United States, 1918
-56. mg-34 | MG 34 | Germany, 1936
-57. bren | Bren gun | United Kingdom, 1938
-58. m60 | M60 (The Pig) | United States, 1957
-59. fn-mag | FN MAG (M240 (U.S.)) | Belgium, 1958
-60. rpk | RPK | Soviet Union, 1961
-61. pkm | PKM | Soviet Union, 1969
-62. m249 | M249 SAW (FN Minimi (base design)) | United States, 1984
-63. winchester-1887 | Winchester Model 1887 | United States, 1887
-64. winchester-1897 | Winchester Model 1897 (Trench gun) | United States, 1897
-66. ithaca-37 | Ithaca 37 | United States, 1937
-67. mossberg-500 | Mossberg 500 | United States, 1961
-69. spas-12 | Franchi SPAS-12 | Italy, 1979
-70. saiga-12 | Saiga-12 | Russia
-71. benelli-m4 | Benelli M4 (M1014 (U.S.)) | Italy, 1999
-72. mauser-c96 | Mauser C96 (Broomhandle) | Germany, 1896
-73. luger-p08 | Luger P08 (Parabellum) | Germany, 1908
-74. tt-33 | TT-33 Tokarev (TT) | Soviet Union, 1933
-75. walther-ppk | Walther PPK | Germany, 1931
-76. browning-hi-power | Browning Hi-Power (HP-35) | Belgium, 1935
-77. walther-p38 | Walther P38 | Germany, 1938
-78. makarov-pm | Makarov PM (PM) | Soviet Union, 1951
-79. beretta-92 | Beretta 92 (M9 (U.S.)) | Italy, 1975
-81. desert-eagle | Desert Eagle | Israel / United States, 1983
-82. sig-p226 | SIG Sauer P226 | Switzerland / Germany, 1984
-83. hk-usp | Heckler & Koch USP | Germany, 1993
-84. fn-five-seven | FN Five-seveN | Belgium, 2000
-85. nagant-m1895 | Nagant M1895 | Russian Empire, 1895
-87. webley-mk-vi | Webley Mk VI | United Kingdom, 1915
-88. colt-python | Colt Python | United States, 1955
-90. winchester-1873 | Winchester Model 1873 (The gun that won the West) | United States, 1873
-91. mosin-nagant | Mosin–Nagant | Russian Empire, 1891
-92. springfield-m1903 | M1903 Springfield (Springfield) | United States, 1903
-93. lee-enfield-smle | Lee–Enfield SMLE Mk III (SMLE) | United Kingdom, 1907
+18. galil | IMI Galil | Israel, 1972
+19. tavor | IWI Tavor TAR-21 (Tavor) | Israel, 2001
+20. scar-l | FN SCAR-L (Mk 16) | Belgium, 2009
+21. hk416 | Heckler & Koch HK416 | Germany, 2005
+22. svt-40 | SVT-40 (Sveta) | Soviet Union, 1940
+23. sks | SKS (Simonov) | Soviet Union, 1945
+24. fn-fal | FN FAL | Belgium, 1953
+25. m14 | M14 | United States, 1959
+26. hk-g3 | Heckler & Koch G3 | Germany, 1959
+27. scar-h | FN SCAR-H (Mk 17) | Belgium, 2009
+28. svd-dragunov | SVD Dragunov (Dragunov) | Soviet Union, 1963
+29. steyr-ssg-69 | Steyr SSG 69 | Austria, 1969
+30. m40 | M40 | United States, 1966
+31. vss-vintorez | VSS Vintorez (Vintorez (Thread cutter)) | Soviet Union, 1987
+32. l96a1 | Accuracy International L96A1 | United Kingdom, 1985
+33. m24 | M24 Sniper Weapon System (M24) | United States, 1988
+34. mk14-ebr | Mk 14 Enhanced Battle Rifle (Mk 14 EBR) | United States, 2004
+35. l115a3 | Accuracy International L115A3 (AWM) | United Kingdom, 2008
+36. mp40 | MP 40 | Germany, 1940
+37. sten | Sten | United Kingdom, 1941
+38. ppsh-41 | PPSh-41 (Papasha) | Soviet Union, 1941
+39. m3-grease-gun | M3 submachine gun (Grease gun) | United States, 1942
+40. uzi | Uzi | Israel, 1954
+41. mp5 | Heckler & Koch MP5 | Germany, 1966
+42. mac-10 | MAC-10 (M10) | United States, 1970
+43. fn-p90 | FN P90 | Belgium, 1990
+44. hk-ump | Heckler & Koch UMP | Germany, 1999
+45. hk-mp7 | Heckler & Koch MP7 | Germany, 2001
+46. kriss-vector | KRISS Vector | United States
+47. lewis-gun | Lewis gun | United Kingdom, 1914
+48. bar-m1918 | Browning Automatic Rifle (BAR) | United States, 1918
+49. mg-34 | MG 34 | Germany, 1936
+50. bren | Bren gun | United Kingdom, 1938
+51. m60 | M60 (The Pig) | United States, 1957
+52. fn-mag | FN MAG (M240 (U.S.)) | Belgium, 1958
+53. rpk | RPK | Soviet Union, 1961
+54. pkm | PKM | Soviet Union, 1969
+55. m249 | M249 SAW (FN Minimi (base design)) | United States, 1984
+56. winchester-1887 | Winchester Model 1887 | United States, 1887
+57. winchester-1897 | Winchester Model 1897 (Trench gun) | United States, 1897
+58. ithaca-37 | Ithaca 37 | United States, 1937
+59. mossberg-500 | Mossberg 500 | United States, 1961
+60. spas-12 | Franchi SPAS-12 | Italy, 1979
+61. saiga-12 | Saiga-12 | Russia
+62. benelli-m4 | Benelli M4 (M1014 (U.S.)) | Italy, 1999
+63. mauser-c96 | Mauser C96 (Broomhandle) | Germany, 1896
+64. luger-p08 | Luger P08 (Parabellum) | Germany, 1908
+65. tt-33 | TT-33 Tokarev (TT) | Soviet Union, 1933
+66. walther-ppk | Walther PPK | Germany, 1931
+67. browning-hi-power | Browning Hi-Power (HP-35) | Belgium, 1935
+68. walther-p38 | Walther P38 | Germany, 1938
+69. makarov-pm | Makarov PM (PM) | Soviet Union, 1951
+70. beretta-92 | Beretta 92 (M9 (U.S.)) | Italy, 1975
+71. desert-eagle | Desert Eagle | Israel / United States, 1983
+72. sig-p226 | SIG Sauer P226 | Switzerland / Germany, 1984
+73. hk-usp | Heckler & Koch USP | Germany, 1993
+74. fn-five-seven | FN Five-seveN | Belgium, 2000
+75. nagant-m1895 | Nagant M1895 | Russian Empire, 1895
+76. webley-mk-vi | Webley Mk VI | United Kingdom, 1915
+77. colt-python | Colt Python | United States, 1955
+78. winchester-1873 | Winchester Model 1873 (The gun that won the West) | United States, 1873
+79. mosin-nagant | Mosin–Nagant | Russian Empire, 1891
+80. springfield-m1903 | M1903 Springfield (Springfield) | United States, 1903
+81. lee-enfield-smle | Lee–Enfield SMLE Mk III (SMLE) | United Kingdom, 1907
 ```
