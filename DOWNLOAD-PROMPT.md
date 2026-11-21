@@ -67,15 +67,12 @@ THE LIST (id | name | country, year)
 30. hk-g3 | Heckler & Koch G3 | Germany, 1959
 31. scar-h | FN SCAR-H (Mk 17) | Belgium, 2009
 32. svd-dragunov | SVD Dragunov (Dragunov) | Soviet Union, 1963
-33. m21 | M21 | United States, 1969
 34. steyr-ssg-69 | Steyr SSG 69 | Austria, 1969
 35. m40 | M40 | United States, 1966
 36. vss-vintorez | VSS Vintorez (Vintorez (Thread cutter)) | Soviet Union, 1987
 37. l96a1 | Accuracy International L96A1 | United Kingdom, 1985
 38. m24 | M24 Sniper Weapon System (M24) | United States, 1988
-39. tac-50 | McMillan TAC-50 (C15 (Canada)) | United States, 2000
 40. mk14-ebr | Mk 14 Enhanced Battle Rifle (Mk 14 EBR) | United States, 2004
-41. m110-sass | M110 Semi-Automatic Sniper System (M110 SASS) | United States, 2008
 42. l115a3 | Accuracy International L115A3 (AWM) | United Kingdom, 2008
 43. mp40 | MP 40 | Germany, 1940
 44. sten | Sten | United Kingdom, 1941
