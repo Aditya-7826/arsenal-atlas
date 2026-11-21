@@ -49,7 +49,21 @@ Prefer models that are under about 15 MB raw, have PBR textures (base colour, me
    ```
    It lists which firearms have models, which are still placeholders, and any model without credits. It exits with an error if a model is uncredited.
 6. **Restart `npm run dev`.** The list of available models is read when the dev server starts, then the model replaces the placeholder in the lobby and the viewer.
-7. Commit `public/models/<id>.glb` and `data/credits.json`, then push. Vercel redeploys automatically.
+7. **Render its card picture.** With `npm run dev` running, open `http://localhost:5173/tools/thumbs/?save=1&ids=<id>` (leave out `ids` to redo all). It renders the model side-on and writes `public/thumbs/<id>.webp`, which the gallery cards, lobby, compare page and 2D mode show. Without it the card falls back to the outline.
+8. Commit `public/models/<id>.glb`, `public/thumbs/<id>.webp` and `data/credits.json`, then push. Vercel redeploys automatically.
+
+## Fixing a model that renders wrong
+
+Look at the contact sheet at `/tools/thumbs/` first: it shows every model the way the viewer does. Common problems and the rule that fixes them, set per id in `data/model-fixes.json` (applied by `models:optimize`, details in `scripts/model-fixes.mjs`):
+
+| Symptom | Cause | Rule |
+|---|---|---|
+| Plain white model | Old spec-gloss materials, which three.js no longer reads | `"metalRough": true` |
+| White or chrome, no textures in the file | Author used flat colours | `"materials": {"*": {"color": [r,g,b], "metal": 0.2, "rough": 0.6}}` (linear colour) |
+| Gun is tiny, or extra parts beside it | Display stand, spare magazines, a second copy | `"remove": ["node-name regex"]`, or `"dropRegion"` for pieces inside one merged mesh |
+| Tilted, leaning or lying down | Posed by the author | `"rotate": [x,y,z]` then `"level": true` |
+
+Then run `npm run models:optimize -- --force <id>` and re-render its thumbnail.
 
 ## Size budget
 
