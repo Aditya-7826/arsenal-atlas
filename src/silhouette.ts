@@ -1,4 +1,5 @@
 import type { Firearm } from './data'
+import { PROFILES, profileBounds } from './profiles'
 
 /**
  * Stylised placeholder silhouettes. Each shape is a list of simple blocks in a side-profile
@@ -146,6 +147,11 @@ export function bounds(parts: Part[]) {
 
 /** Height of the placeholder silhouette in metres (for placing shadows and the scale bar). */
 export function profileHeight(firearm: Firearm, lengthM: number) {
+  const detailed = PROFILES[firearm.id]
+  if (detailed) {
+    const b = profileBounds(detailed)
+    return ((b.y1 - b.y0) / (b.x1 - b.x0)) * lengthM
+  }
   const bb = bounds(SHAPES[shapeFor(firearm)])
   return (bb.y1 - bb.y0) * lengthM
 }
