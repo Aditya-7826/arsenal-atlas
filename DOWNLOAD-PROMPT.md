@@ -120,5 +120,4 @@ THE LIST (id | name | country, year)
 91. mosin-nagant | Mosin–Nagant | Russian Empire, 1891
 92. springfield-m1903 | M1903 Springfield (Springfield) | United States, 1903
 93. lee-enfield-smle | Lee–Enfield SMLE Mk III (SMLE) | United Kingdom, 1907
-94. arisaka-type-99 | Arisaka Type 99 | Japan, 1939
 ```
