@@ -96,10 +96,8 @@ THE LIST (id | name | country, year)
 62. m249 | M249 SAW (FN Minimi (base design)) | United States, 1984
 63. winchester-1887 | Winchester Model 1887 | United States, 1887
 64. winchester-1897 | Winchester Model 1897 (Trench gun) | United States, 1897
-65. browning-auto-5 | Browning Auto-5 (A-5) | Belgium, 1902
 66. ithaca-37 | Ithaca 37 | United States, 1937
 67. mossberg-500 | Mossberg 500 | United States, 1961
-68. aa-12 | Auto Assault-12 (AA-12) | United States, 1972
 69. spas-12 | Franchi SPAS-12 | Italy, 1979
 70. saiga-12 | Saiga-12 | Russia
 71. benelli-m4 | Benelli M4 (M1014 (U.S.)) | Italy, 1999
