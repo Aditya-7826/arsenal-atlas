@@ -1,8 +1,9 @@
 import { Component, Suspense, useEffect, useMemo, type ReactNode } from 'react'
 import { useGLTF } from '@react-three/drei'
-import { Box3, Mesh, MeshStandardMaterial, Vector3, type Material, type Object3D, type Texture } from 'three'
+import { Mesh, MeshStandardMaterial, type Material, type Object3D, type Texture } from 'three'
 import { hasModel, type Firearm } from '../data'
 import { Placeholder } from './Placeholder'
+import { normalizeModel } from './normalize'
 
 class ModelBoundary extends Component<{ fallback: ReactNode; children: ReactNode; onError?: () => void }, { failed: boolean }> {
   state = { failed: false }
@@ -29,26 +30,18 @@ function disposeTree(root: Object3D) {
   })
 }
 
-/** Loads a GLB (Draco or Meshopt compressed), lays it along X, scales it to real length and centres it. */
+/** Loads a GLB (Draco or Meshopt compressed), lays it along X, scales it to real length and centres it (see normalize.ts). */
 function GLTFModel({ path, lengthM, envMap }: { path: string; lengthM: number; envMap?: Texture }) {
   const { scene } = useGLTF(path, '/draco/')
 
   const { scale, offset, rotY } = useMemo(() => {
-    const size = new Box3().setFromObject(scene).getSize(new Vector3())
-    const rotY = size.z > size.x ? Math.PI / 2 : 0
-    const longest = Math.max(size.x, size.z) || 1
-    const scale = lengthM / longest
-    scene.rotation.set(0, rotY, 0)
-    scene.scale.setScalar(scale)
-    scene.position.set(0, 0, 0)
-    scene.updateMatrixWorld(true)
-    const center = new Box3().setFromObject(scene).getCenter(new Vector3())
-    scene.traverse((o) => {
-      if (!(o instanceof Mesh)) return
-      o.castShadow = true
-      if (envMap) for (const m of [o.material].flat()) if (m instanceof MeshStandardMaterial) m.envMap = envMap
-    })
-    return { scale, offset: center.negate(), rotY }
+    const n = normalizeModel(scene, lengthM)
+    if (envMap) {
+      scene.traverse((o) => {
+        if (o instanceof Mesh) for (const m of [o.material].flat()) if (m instanceof MeshStandardMaterial) m.envMap = envMap
+      })
+    }
+    return n
   }, [scene, lengthM, envMap])
 
   useEffect(
