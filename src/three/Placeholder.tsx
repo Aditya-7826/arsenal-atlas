@@ -3,6 +3,8 @@ import { BoxGeometry, CylinderGeometry, type Texture } from 'three'
 import { SHAPES, bounds, shapeFor } from '../silhouette'
 import type { Firearm } from '../data'
 import { placeholderMaterials } from './materials'
+import { PROFILES } from '../profiles'
+import { DetailedModel } from './DetailedModel'
 
 const HANDGUN = new Set(['pistol', 'revolver'])
 
@@ -11,6 +13,12 @@ const HANDGUN = new Set(['pistol', 'revolver'])
  * scaled to the firearm's overall length in metres and centred on the origin.
  */
 export function Placeholder({ firearm, lengthM, envMap }: { firearm: Firearm; lengthM: number; envMap?: Texture }) {
+  const detailed = PROFILES[firearm.id]
+  if (detailed) return <DetailedModel profile={detailed} lengthM={lengthM} envMap={envMap} />
+  return <BlockPlaceholder firearm={firearm} lengthM={lengthM} envMap={envMap} />
+}
+
+function BlockPlaceholder({ firearm, lengthM, envMap }: { firearm: Firearm; lengthM: number; envMap?: Texture }) {
   const shape = shapeFor(firearm)
   const mats = placeholderMaterials(envMap)
   const parts = SHAPES[shape]
