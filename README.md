@@ -1,6 +1,6 @@
 # Arsenal Atlas
 
-**A museum-style 3D atlas of 94 of the world's most famous firearms.** Walk into a dark armoury hall, browse nine galleries, and turn any piece through a full 360° on a turntable, with its specifications, history and service record beside it.
+**A museum-style 3D atlas of 81 of the world's most famous firearms.** Walk into a dark armoury hall, browse nine galleries, and turn any piece through a full 360° on a turntable, with its specifications, history and service record beside it.
 
 It's built entirely with free tools, has no backend and no API keys, and deploys as a static site on Vercel's free tier.
 
@@ -38,15 +38,15 @@ It's built entirely with free tools, has no backend and no API keys, and deploys
 
 ## The collection
 
-94 firearms across nine galleries:
+81 firearms across nine galleries, each with its own 3D model:
 
 | Gallery | Pieces | | Gallery | Pieces |
 |---|---|---|---|---|
-| Assault rifles | 16 | | Light & general-purpose machine guns | 10 |
-| Battle rifles | 8 | | Shotguns | 10 |
-| Sniper & marksman rifles | 12 | | Pistols | 14 |
-| Submachine guns | 12 | | Revolvers | 6 |
-| | | | Historic & classic rifles | 6 |
+| Assault rifles | 13 | | Light & general-purpose machine guns | 10 |
+| Battle rifles | 7 | | Shotguns | 8 |
+| Sniper & marksman rifles | 9 | | Pistols | 13 |
+| Submachine guns | 12 | | Revolvers | 4 |
+| | | | Historic & classic rifles | 5 |
 
 Each entry has a name, nickname, country, manufacturer, designer, year introduced, calibre, action type, weight, length, capacity, notable users and conflicts, a short history and one or two "did you know" notes. The data is in [`data/firearms.json`](data/firearms.json).
 
@@ -112,7 +112,7 @@ The full guide is in [MODELS.md](MODELS.md).
 
 ```
 data/
-  firearms.json      the catalogue (94 entries)
+  firearms.json      the catalogue (81 entries)
   credits.json       attribution for models and other assets
   VERIFY.md          every field left blank on purpose, to verify
 public/
