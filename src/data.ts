@@ -58,8 +58,8 @@ export const CATEGORIES: Category[] = [
   { slug: 'submachine-guns', name: 'Submachine Guns', short: 'SMG', typicalMm: 650, blurb: 'Compact automatic weapons, mostly in pistol calibres.', featured: ['thompson', 'uzi', 'mp5'] },
   { slug: 'machine-guns', name: 'Machine Guns', short: 'MG', typicalMm: 1150, blurb: 'Light and general-purpose support weapons.', featured: ['mg-42', 'm60', 'm249'] },
   { slug: 'shotguns', name: 'Shotguns', short: 'Shotgun', typicalMm: 1050, blurb: 'Smoothbore long guns, from frontier lever-actions to modern autos.', featured: ['remington-870', 'spas-12', 'benelli-m4'] },
-  { slug: 'pistols', name: 'Pistols', short: 'Pistol', typicalMm: 205, blurb: 'Self-loading handguns from the 1890s to today.', featured: ['colt-m1911', 'glock-17', 'desert-eagle'] },
-  { slug: 'revolvers', name: 'Revolvers', short: 'Revolver', typicalMm: 280, blurb: 'Cylinder-fed handguns of the frontier, police and cinema.', featured: ['colt-saa', 'sw-model-29', 'colt-python'] },
+  { slug: 'pistols', name: 'Pistols', short: 'Pistol', typicalMm: 205, blurb: 'Self-loading handguns from the 1890s to today.', featured: ['colt-m1911', 'beretta-92', 'desert-eagle'] },
+  { slug: 'revolvers', name: 'Revolvers', short: 'Revolver', typicalMm: 280, blurb: 'Cylinder-fed handguns of the frontier, police and cinema.', featured: ['colt-saa', 'webley-mk-vi', 'colt-python'] },
   { slug: 'historic-rifles', name: 'Historic Rifles', short: 'Historic', typicalMm: 1120, blurb: 'Classic bolt- and lever-action rifles that defined an era.', featured: ['kar98k', 'lee-enfield-smle', 'mosin-nagant'] },
 ]
 

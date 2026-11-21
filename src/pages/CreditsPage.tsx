@@ -15,7 +15,7 @@ export default function CreditsPage() {
         <p className="label">Attribution</p>
         <h1 className="font-display mt-1 text-2xl text-text md:text-3xl">CREDITS</h1>
         <p className="mt-2 max-w-3xl text-sm text-muted">
-          Every 3D model in Arsenal Atlas is licensed CC0 or CC BY and credited here. This page is generated from <code className="text-gold-light">data/credits.json</code>. Text descriptions are original to this project. {MODEL_COUNT} of {FIREARMS.length} firearms currently have a 3D model; the rest use stylised placeholder silhouettes.
+          Every 3D model in Arsenal Atlas is licensed CC0 or CC BY and credited here. This page is generated from <code className="text-gold-light">data/credits.json</code>. Text descriptions are original to this project. {MODEL_COUNT === FIREARMS.length ? `All ${FIREARMS.length} firearms have a 3D model.` : `${MODEL_COUNT} of ${FIREARMS.length} firearms currently have a 3D model; the rest use stylised placeholder silhouettes.`}
         </p>
       </GlassPanel>
 

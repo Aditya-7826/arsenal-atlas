@@ -122,7 +122,7 @@ export const SHAPES: Record<Shape, Part[]> = {
 }
 
 const OVERRIDE: Record<string, Shape> = {
-  famas: 'bullpup', 'steyr-aug': 'bullpup', l85: 'bullpup', tavor: 'bullpup', 'qbz-95': 'bullpup', 'fn-p90': 'bullpup',
+  famas: 'bullpup', 'steyr-aug': 'bullpup', tavor: 'bullpup', 'fn-p90': 'bullpup',
   'm1-garand': 'classic', 'svt-40': 'classic', sks: 'classic', 'm14': 'battle',
   'winchester-1873': 'lever', 'winchester-1887': 'lever',
   'barrett-m82': 'sniper', 'svd-dragunov': 'sniper', 'vss-vintorez': 'sniper',
