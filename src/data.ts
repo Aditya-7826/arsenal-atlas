@@ -1,5 +1,6 @@
 import raw from '../data/firearms.json'
 import credits from '../data/credits.json'
+import assetCredits from '../data/asset-credits.json'
 import modelIds from 'virtual:model-manifest'
 
 export type Firearm = {
@@ -22,7 +23,8 @@ export type Firearm = {
   history: string
   trivia: string[]
   era: Era | null
-  modelPath: string
+  /** null when no licensed model exists yet; the viewer shows the placeholder */
+  modelPath: string | null
 }
 
 export type Era = 'Pre-1900' | '1900–1945' | 'Cold War' | 'Modern'
@@ -101,18 +103,24 @@ export const fmt = {
   int: (v: number | null) => (v == null ? '—' : String(Math.round(v))),
 }
 
+/** One 3D model's attribution (data/credits.json, written by `npm run models:import`). */
 export type Credit = {
   id: string
   title: string
   author: string
-  authorUrl?: string
-  source: string
-  sourceUrl: string
-  license: 'CC0-1.0' | 'CC-BY-4.0' | 'CC-BY-3.0'
-  licenseUrl: string
-  changes?: string
+  authorUrl: string
+  url: string
+  license: string
 }
+/** Non-model assets: HDRI, fonts, decoders (data/asset-credits.json). */
 export type AssetCredit = { name: string; author: string; source: string; sourceUrl: string; license: string; licenseUrl: string }
-export const CREDITS = credits as { models: Credit[]; assets: AssetCredit[] }
+export const CREDITS = { models: credits as Credit[], assets: assetCredits as AssetCredit[] }
+
+const LICENCE_URLS: Record<string, string> = {
+  'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/',
+  'CC BY 3.0': 'https://creativecommons.org/licenses/by/3.0/',
+  CC0: 'https://creativecommons.org/publicdomain/zero/1.0/',
+}
+export const licenceUrl = (l: string) => LICENCE_URLS[l] ?? 'https://creativecommons.org/licenses/'
 
 export const SITE = 'Arsenal Atlas'

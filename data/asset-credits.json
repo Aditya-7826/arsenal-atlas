@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Studio Small 09 (HDRI, 1k)",
+    "author": "Sergej Majboroda",
+    "source": "Poly Haven",
+    "sourceUrl": "https://polyhaven.com/a/studio_small_09",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "name": "Cinzel (font)",
+    "author": "Natanael Gama",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Cinzel",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "https://openfontlicense.org"
+  },
+  {
+    "name": "Manrope (font)",
+    "author": "Mikhail Sharanda",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Manrope",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "https://openfontlicense.org"
+  },
+  {
+    "name": "Draco geometry decoder",
+    "author": "Google",
+    "source": "three.js distribution",
+    "sourceUrl": "https://github.com/google/draco",
+    "license": "Apache License 2.0",
+    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0"
+  }
+]

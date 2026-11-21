@@ -30,8 +30,8 @@ function disposeTree(root: Object3D) {
 }
 
 /** Loads a GLB (Draco or Meshopt compressed), lays it along X, scales it to real length and centres it. */
-function GLTFModel({ firearm, lengthM, envMap }: { firearm: Firearm; lengthM: number; envMap?: Texture }) {
-  const { scene } = useGLTF(firearm.modelPath, '/draco/')
+function GLTFModel({ path, lengthM, envMap }: { path: string; lengthM: number; envMap?: Texture }) {
+  const { scene } = useGLTF(path, '/draco/')
 
   const { scale, offset, rotY } = useMemo(() => {
     const size = new Box3().setFromObject(scene).getSize(new Vector3())
@@ -54,9 +54,9 @@ function GLTFModel({ firearm, lengthM, envMap }: { firearm: Firearm; lengthM: nu
   useEffect(
     () => () => {
       disposeTree(scene)
-      useGLTF.clear(firearm.modelPath)
+      useGLTF.clear(path)
     },
-    [scene, firearm.modelPath],
+    [scene, path],
   )
 
   return (
@@ -72,11 +72,11 @@ function GLTFModel({ firearm, lengthM, envMap }: { firearm: Firearm; lengthM: nu
  */
 export function FirearmModel({ firearm, lengthM, loading, envMap }: { firearm: Firearm; lengthM: number; loading?: ReactNode; envMap?: Texture }) {
   const placeholder = <Placeholder firearm={firearm} lengthM={lengthM} envMap={envMap} />
-  if (!hasModel(firearm.id)) return placeholder
+  if (!firearm.modelPath || !hasModel(firearm.id)) return placeholder
   return (
     <ModelBoundary fallback={placeholder}>
       <Suspense fallback={loading ?? null}>
-        <GLTFModel firearm={firearm} lengthM={lengthM} envMap={envMap} />
+        <GLTFModel path={firearm.modelPath} lengthM={lengthM} envMap={envMap} />
       </Suspense>
     </ModelBoundary>
   )

@@ -1,37 +1,650 @@
-{
-  "models": [],
-  "assets": [
-    {
-      "name": "Studio Small 09 (HDRI, 1k)",
-      "author": "Sergej Majboroda",
-      "source": "Poly Haven",
-      "sourceUrl": "https://polyhaven.com/a/studio_small_09",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-    },
-    {
-      "name": "Cinzel (font)",
-      "author": "Natanael Gama",
-      "source": "Google Fonts",
-      "sourceUrl": "https://fonts.google.com/specimen/Cinzel",
-      "license": "SIL Open Font License 1.1",
-      "licenseUrl": "https://openfontlicense.org"
-    },
-    {
-      "name": "Manrope (font)",
-      "author": "Mikhail Sharanda",
-      "source": "Google Fonts",
-      "sourceUrl": "https://fonts.google.com/specimen/Manrope",
-      "license": "SIL Open Font License 1.1",
-      "licenseUrl": "https://openfontlicense.org"
-    },
-    {
-      "name": "Draco geometry decoder",
-      "author": "Google",
-      "source": "three.js distribution",
-      "sourceUrl": "https://github.com/google/draco",
-      "license": "Apache License 2.0",
-      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
-}
+[
+  {
+    "id": "ak-47",
+    "title": "AK-47 Kalashnikov",
+    "author": "Jeyhun1985",
+    "authorUrl": "https://sketchfab.com/Jeyhun1985",
+    "url": "https://sketchfab.com/3d-models/5d08c2e227d04a0f87cd5a005e6b56d1",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ak-74",
+    "title": "AK74M Assault Rifle",
+    "author": "creationwasteland",
+    "authorUrl": "https://sketchfab.com/creationwasteland",
+    "url": "https://sketchfab.com/3d-models/8eea0d04d81b4476bb36bf7e6cfc389c",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "akm",
+    "title": "AKM Assault Rifle | Game Ready Model",
+    "author": "kennethtzh",
+    "authorUrl": "https://sketchfab.com/kennethtzh",
+    "url": "https://sketchfab.com/3d-models/8b6ce77441f8446786e0680d61d327db",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bar-m1918",
+    "title": "M1918A2 BAR",
+    "author": "Shorty_Digitan",
+    "authorUrl": "https://sketchfab.com/Shorty_Digitan",
+    "url": "https://sketchfab.com/3d-models/f3eda10014fb44d4a6912ee9c742d67a",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "barrett-m82",
+    "title": "Barrett M82 A1",
+    "author": "Gintoki1234",
+    "authorUrl": "https://sketchfab.com/Gintoki1234",
+    "url": "https://sketchfab.com/3d-models/499195fd926c4016ae5aead4b9e33fb2",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "benelli-m4",
+    "title": "Shotgun Benelli M4",
+    "author": "drollShark",
+    "authorUrl": "https://sketchfab.com/drollShark",
+    "url": "https://sketchfab.com/3d-models/e0d23db5a8b64ff2980875834b425c4b",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "beretta-92",
+    "title": "Beretta 92",
+    "author": "romunql",
+    "authorUrl": "https://sketchfab.com/romunql",
+    "url": "https://sketchfab.com/3d-models/ed616cb85fb14b5181ad9a575af67e10",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bren",
+    "title": "Bren Mk1 LMG",
+    "author": "maximiliaanmaene",
+    "authorUrl": "https://sketchfab.com/maximiliaanmaene",
+    "url": "https://sketchfab.com/3d-models/df74f7e3720d469e8bf425407e7ddc34",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "browning-hi-power",
+    "title": "Browning Hi-Power",
+    "author": "MustafaYerebasmaz",
+    "authorUrl": "https://sketchfab.com/Mustafa97",
+    "url": "https://sketchfab.com/3d-models/fed0afc9f7604703a6250eb73250725f",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "colt-m1911",
+    "title": "M1911 pistol",
+    "author": "e.belous",
+    "authorUrl": "https://sketchfab.com/egorbelous",
+    "url": "https://sketchfab.com/3d-models/80a0b8a6c4314da4a7b3a7cfe6cec1d4",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "colt-python",
+    "title": "GameReady: Colt Python Revolver",
+    "author": "HYQQM",
+    "authorUrl": "https://sketchfab.com/HYQQM",
+    "url": "https://sketchfab.com/3d-models/3def6e3980e64dfa832f298004ce1b94",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "colt-saa",
+    "title": "Colt Single Action Army .45",
+    "author": "alexm00",
+    "authorUrl": "https://sketchfab.com/alexm00",
+    "url": "https://sketchfab.com/3d-models/735743e96f0a48178b8d21cd4edacf48",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "desert-eagle",
+    "title": "Desert Eagle",
+    "author": "ELIZION",
+    "authorUrl": "https://sketchfab.com/ELIZION",
+    "url": "https://sketchfab.com/3d-models/cabde59f5cf24effaf80536e35d04e95",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "famas",
+    "title": "Famas with camo pattern",
+    "author": "leoxx300",
+    "authorUrl": "https://sketchfab.com/leoxx300",
+    "url": "https://sketchfab.com/3d-models/17f6d28b9b03407792c8a4b7c39f8b4e",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fn-fal",
+    "title": "FN FAL",
+    "author": "The Unknown...",
+    "authorUrl": "https://sketchfab.com/1514112",
+    "url": "https://sketchfab.com/3d-models/7f548d1f79f7418fad852f3d7293ec2c",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fn-five-seven",
+    "title": "FN Five-seveN",
+    "author": "simon_fischer",
+    "authorUrl": "https://sketchfab.com/simon_fischer",
+    "url": "https://sketchfab.com/3d-models/4583bf36ff2644e2800b6719fac274dc",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fn-mag",
+    "title": "M240",
+    "author": "Borealflame",
+    "authorUrl": "https://sketchfab.com/Ecabrerado",
+    "url": "https://sketchfab.com/3d-models/9c1f4001f08047889ed41b4375a99e46",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "fn-p90",
+    "title": "P90",
+    "author": "Rotuma",
+    "authorUrl": "https://sketchfab.com/Rotuma",
+    "url": "https://sketchfab.com/3d-models/82d8b9f1e02b48f9b012698dcfa3352b",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "galil",
+    "title": "IMI Galil weapon",
+    "author": "MilotoR1",
+    "authorUrl": "https://sketchfab.com/m1lotor",
+    "url": "https://sketchfab.com/3d-models/c04464da23af47458533a8a8c74f4b4b",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "hk-g3",
+    "title": "G3A3.Free Highpolly game asset. Army weapon",
+    "author": "rgrimes2686",
+    "authorUrl": "https://sketchfab.com/rgrimes2686",
+    "url": "https://sketchfab.com/3d-models/6d2c6931a82b4dc8abd71c7960c484d2",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "hk-g36",
+    "title": "G36 with attachments",
+    "author": "Kelisei Ventura",
+    "authorUrl": "https://sketchfab.com/frankestudios71",
+    "url": "https://sketchfab.com/3d-models/de744d8804ce4231ba3c76f791980832",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "hk-mp7",
+    "title": "H&K MP7 A1",
+    "author": "Steve Henry",
+    "authorUrl": "https://sketchfab.com/Trinitite_Studio",
+    "url": "https://sketchfab.com/3d-models/27cd4b48fb14451c86adad4c559082d6",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "hk-ump",
+    "title": "UMP-45",
+    "author": "Viktoriia",
+    "authorUrl": "https://sketchfab.com/viktoriia.zk",
+    "url": "https://sketchfab.com/3d-models/5e58753fe17942af84cb3fe14e624e17",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "hk-usp",
+    "title": "USP 9mm [reworked]",
+    "author": "dries.puype",
+    "authorUrl": "https://sketchfab.com/dries.puype",
+    "url": "https://sketchfab.com/3d-models/2ef34291ddf04f248610bbc778c72c0a",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "hk416",
+    "title": "HK 416 A7 (free download)",
+    "author": "r4m",
+    "authorUrl": "https://sketchfab.com/r4m",
+    "url": "https://sketchfab.com/3d-models/a16768f0ffa24737a4fe324a411cfbd9",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ithaca-37",
+    "title": "Ithaca-37",
+    "author": "Ilia_S",
+    "authorUrl": "https://sketchfab.com/I.sln",
+    "url": "https://sketchfab.com/3d-models/0b60a90d7f5a4b24ad0656c864083983",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "kar98k",
+    "title": "Kar98k (Mauser Karabiner 98k) bolt action rifle",
+    "author": "rivetech",
+    "authorUrl": "https://sketchfab.com/rivetech",
+    "url": "https://sketchfab.com/3d-models/d2e0c38707c742d88ed4bd85df4ec8bf",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "kriss-vector",
+    "title": "Kriss vector",
+    "author": "Pieter Ferreira",
+    "authorUrl": "https://sketchfab.com/Badboy17Aiden",
+    "url": "https://sketchfab.com/3d-models/26c76ebd92954fa59c5d3606265bdac2",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "l115a3",
+    "title": "L115A3",
+    "author": "Mortavex",
+    "authorUrl": "https://sketchfab.com/Mortavex",
+    "url": "https://sketchfab.com/3d-models/3b732b97c72440229c17b78e565f965e",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "l96a1",
+    "title": "L96A1",
+    "author": "wilmaward",
+    "authorUrl": "https://sketchfab.com/wilmaward",
+    "url": "https://sketchfab.com/3d-models/b605c85270ab4674ada378f45e4f8c31",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "lee-enfield-smle",
+    "title": "Lee Enfield SMLE MKIII",
+    "author": "skaveria",
+    "authorUrl": "https://sketchfab.com/skaveria",
+    "url": "https://sketchfab.com/3d-models/7c35777ac96f4c6693b21a145a6dd7d5",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "lewis-gun",
+    "title": "Lewis Gun British WW1 heavy machine gun",
+    "author": "Coconut",
+    "authorUrl": "https://sketchfab.com/tomas.anglim.811",
+    "url": "https://sketchfab.com/3d-models/2332041c12f640e6a9ce432e6e278455",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "luger-p08",
+    "title": "P08 Luger Stsndard",
+    "author": "ARIA",
+    "authorUrl": "https://sketchfab.com/I_Live",
+    "url": "https://sketchfab.com/3d-models/a6911ae4e07947f492e177396aae7979",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m1-garand",
+    "title": "M1 Garand ( US Rifle, Caliber .30, M1)",
+    "author": "Sky_Hunter",
+    "authorUrl": "https://sketchfab.com/Sky_Hunter",
+    "url": "https://sketchfab.com/3d-models/1be4bb0f8c05423abdccb50b779de6e6",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m14",
+    "title": "M14 RIFLE",
+    "author": "Ecler",
+    "authorUrl": "https://sketchfab.com/ecler",
+    "url": "https://sketchfab.com/3d-models/94920332fc7a4d63939b88a8a54baead",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m16",
+    "title": "M16 Assault Rifle",
+    "author": "SpatialNeglect",
+    "authorUrl": "https://sketchfab.com/jeandiz",
+    "url": "https://sketchfab.com/3d-models/339d0f7b21024387853dd926a5d51b50",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m24",
+    "title": "M24 Sniper Rifle - Custom Scope",
+    "author": "M37_R",
+    "authorUrl": "https://sketchfab.com/ahmettanju.2013",
+    "url": "https://sketchfab.com/3d-models/84b72eaf37a54ecb945017e3955455a0",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m249",
+    "title": "M249 light machine gun",
+    "author": "AK",
+    "authorUrl": "https://sketchfab.com/skaf13",
+    "url": "https://sketchfab.com/3d-models/75cacc16a52640c7adb100d7294da244",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m3-grease-gun",
+    "title": "М3 («Grease gun»)",
+    "author": "XxRxX",
+    "authorUrl": "https://sketchfab.com/XxRxX",
+    "url": "https://sketchfab.com/3d-models/3d30b825985647ef80662b84a498449c",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m4-carbine",
+    "title": "Classic M4",
+    "author": "SpatialNeglect",
+    "authorUrl": "https://sketchfab.com/jeandiz",
+    "url": "https://sketchfab.com/3d-models/a747ebdbb3d941ecb09b459c62865a75",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m40",
+    "title": "M40A3 Sniper Rifle",
+    "author": "Observer3D",
+    "authorUrl": "https://sketchfab.com/3danalyst",
+    "url": "https://sketchfab.com/3d-models/861c37a0373e4362b964ff526fc620c4",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "m60",
+    "title": "M60 Machine gun - 1963 - free",
+    "author": "Andy Woodhead",
+    "authorUrl": "https://sketchfab.com/Andywoodhead",
+    "url": "https://sketchfab.com/3d-models/093e93399528434e9735539e25e51f8d",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mac-10",
+    "title": "MAC-10 - Game ready model",
+    "author": "UnFy KilianZ",
+    "authorUrl": "https://sketchfab.com/UnFyKilianZ",
+    "url": "https://sketchfab.com/3d-models/48ea3c70f68449baa3e88752834f308c",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "makarov-pm",
+    "title": "Makarov PM",
+    "author": "Martin Trafas",
+    "authorUrl": "https://sketchfab.com/TinoD2",
+    "url": "https://sketchfab.com/3d-models/dbf03ce95c834cb7b07edba799dcd46a",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mauser-c96",
+    "title": "Mauser Gun C96",
+    "author": "Andriy Shekh",
+    "authorUrl": "https://sketchfab.com/sheh5262",
+    "url": "https://sketchfab.com/3d-models/be1e0793a5be47b199e3c97172e371df",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mg-34",
+    "title": "Mg 34",
+    "author": "buh",
+    "authorUrl": "https://sketchfab.com/buh-late",
+    "url": "https://sketchfab.com/3d-models/ee1879e903834da2becd9f2151850c37",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mg-42",
+    "title": "MASCHINENGEWEHR (MG 42)",
+    "author": "drcrazzie",
+    "authorUrl": "https://sketchfab.com/drcrazzie",
+    "url": "https://sketchfab.com/3d-models/a7c6b122b8654160a72e19a783fb6b9d",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mk14-ebr",
+    "title": "M14 eBR",
+    "author": "gergilin",
+    "authorUrl": "https://sketchfab.com/gergilin",
+    "url": "https://sketchfab.com/3d-models/c2f9be5c343242bba8791067768906b9",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mosin-nagant",
+    "title": "Mosin Nagant M91",
+    "author": "Doink",
+    "authorUrl": "https://sketchfab.com/Doinkoloink",
+    "url": "https://sketchfab.com/3d-models/55c00242c4024307a761a89167e39a7c",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mossberg-500",
+    "title": "Mossberg 500 Pump Shotgun",
+    "author": "Samurai_Chad",
+    "authorUrl": "https://sketchfab.com/Samurai_Chad",
+    "url": "https://sketchfab.com/3d-models/9899f3a9f5c948a9b1e89470f0dfc132",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mp40",
+    "title": "WW2 German MP40",
+    "author": "Tactical_Beard",
+    "authorUrl": "https://sketchfab.com/Tactical_Beard",
+    "url": "https://sketchfab.com/3d-models/527929dafda34929a1e87031c8ddf689",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "mp5",
+    "title": "HK MP5 SMG",
+    "author": "Daniel Zamary",
+    "authorUrl": "https://sketchfab.com/dani-zzz",
+    "url": "https://sketchfab.com/3d-models/fad0226e1dcf4af180f707a5509d3a4e",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "nagant-m1895",
+    "title": "Nagant M1895 Revolver",
+    "author": "SpatialNeglect",
+    "authorUrl": "https://sketchfab.com/jeandiz",
+    "url": "https://sketchfab.com/3d-models/d8ce5431c53c4f32af9c82fbd2ffeac6",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "pkm",
+    "title": "PKM Machine Gun",
+    "author": "Li Zheng",
+    "authorUrl": "https://sketchfab.com/futureoverhope",
+    "url": "https://sketchfab.com/3d-models/79bc67a78b434e65950f0257fe5f09a5",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "ppsh-41",
+    "title": "PPSh-41",
+    "author": "Artem Goyko",
+    "authorUrl": "https://sketchfab.com/Artem.Goyko",
+    "url": "https://sketchfab.com/3d-models/089bdfb09ada407da3e75cfcbe2180fe",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "remington-870",
+    "title": "Remington 870 Shotgun",
+    "author": "Urpo",
+    "authorUrl": "https://sketchfab.com/Urpo",
+    "url": "https://sketchfab.com/3d-models/05a6a02909ee4fcfa5cde3d76cb067f0",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "rpk",
+    "title": "RPK drum mag",
+    "author": "Moonify",
+    "authorUrl": "https://sketchfab.com/moonifysfm",
+    "url": "https://sketchfab.com/3d-models/4b91e04bcfe743cf99d4b36a67e503ec",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "saiga-12",
+    "title": "Saiga 12",
+    "author": "Pieter Ferreira",
+    "authorUrl": "https://sketchfab.com/Badboy17Aiden",
+    "url": "https://sketchfab.com/3d-models/3041f2a1a2c842e9a781cfdafbb82627",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "scar-h",
+    "title": "FN SCAR MK-17 Rifle",
+    "author": "Socksthecat",
+    "authorUrl": "https://sketchfab.com/Socksthecat",
+    "url": "https://sketchfab.com/3d-models/8b6d05a9f7ca464fac840b37e8e9e144",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "scar-l",
+    "title": "SCAR L",
+    "author": "Daniel Abeleira",
+    "authorUrl": "https://sketchfab.com/DelthorGames",
+    "url": "https://sketchfab.com/3d-models/48141819356643559761da09dd9e7841",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "sig-p226",
+    "title": "Sig Sauer P226",
+    "author": "Alexcanot",
+    "authorUrl": "https://sketchfab.com/Alexcanot",
+    "url": "https://sketchfab.com/3d-models/e3d4f1ab22f342f4a0891743353c114c",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "sks",
+    "title": "Type 56 Carbine / SKS",
+    "author": "8sianDude",
+    "authorUrl": "https://sketchfab.com/haoliu95",
+    "url": "https://sketchfab.com/3d-models/d5fc1eb5bbd549b7818a63f4decaa86f",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "spas-12",
+    "title": "The Franchi SPAS-12",
+    "author": "Ecler",
+    "authorUrl": "https://sketchfab.com/ecler",
+    "url": "https://sketchfab.com/3d-models/dfb4e1671b5b49e7b8a54cd120fc4d9f",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "springfield-m1903",
+    "title": "M1903 A3 Springfield",
+    "author": "Gintoki1234",
+    "authorUrl": "https://sketchfab.com/Gintoki1234",
+    "url": "https://sketchfab.com/3d-models/fa6f760cd28b4d3db2011ab2cab0f719",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "sten",
+    "title": "STEN Mk5",
+    "author": "Alexander Kirby",
+    "authorUrl": "https://sketchfab.com/alexanderkirby",
+    "url": "https://sketchfab.com/3d-models/746a00d1a1bd4278927839fdc903dff6",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "steyr-aug",
+    "title": "Steyr Aug",
+    "author": "quick_loop",
+    "authorUrl": "https://sketchfab.com/so_O",
+    "url": "https://sketchfab.com/3d-models/5d6189495ac4406f82eca848bbb6fa95",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "steyr-ssg-69",
+    "title": "Steyr SSG 69",
+    "author": "Neo_minigan",
+    "authorUrl": "https://sketchfab.com/neominigan",
+    "url": "https://sketchfab.com/3d-models/3aff1a521753491c830ad6114f319e4d",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "stg-44",
+    "title": "STG - 44 | Sturmgewehr",
+    "author": "ELIZION",
+    "authorUrl": "https://sketchfab.com/ELIZION",
+    "url": "https://sketchfab.com/3d-models/fa37bef729e141a6a29bb022a3e0be41",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "svd-dragunov",
+    "title": "SVD (Dragunov) *Updated*",
+    "author": "WillyG99",
+    "authorUrl": "https://sketchfab.com/WillyG99",
+    "url": "https://sketchfab.com/3d-models/d4a9412275aa4974b146ad8ce9dc5fc2",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "svt-40",
+    "title": "SVT-40",
+    "author": "Vasily",
+    "authorUrl": "https://sketchfab.com/3D-Models-Geek",
+    "url": "https://sketchfab.com/3d-models/ca6cf99620644616aed069b875f50c8f",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "tavor",
+    "title": "TAR - 21 (Tavor). Black and White.",
+    "author": "Nik Vega",
+    "authorUrl": "https://sketchfab.com/nik_vega",
+    "url": "https://sketchfab.com/3d-models/40dc15941e0b456692c83a97bfcd2474",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "thompson",
+    "title": "Thompson submachine gun",
+    "author": "Artem Goyko",
+    "authorUrl": "https://sketchfab.com/Artem.Goyko",
+    "url": "https://sketchfab.com/3d-models/5fe11dfebf734b4aa49c43545397abd1",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "tt-33",
+    "title": "Tulsky Tokarev(TT)",
+    "author": "e.belous",
+    "authorUrl": "https://sketchfab.com/egorbelous",
+    "url": "https://sketchfab.com/3d-models/525134dace5646f282b7ce727e787fe2",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "uzi",
+    "title": "UZI",
+    "author": "Gintoki1234",
+    "authorUrl": "https://sketchfab.com/Gintoki1234",
+    "url": "https://sketchfab.com/3d-models/6d997976cf5845b48c6e8b7495b3551b",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "vss-vintorez",
+    "title": "VSS Vintorez",
+    "author": "Artem Goyko",
+    "authorUrl": "https://sketchfab.com/Artem.Goyko",
+    "url": "https://sketchfab.com/3d-models/18e1f60286d346728f650984f4ae70aa",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "walther-p38",
+    "title": "Walther P38",
+    "author": "CGenesis",
+    "authorUrl": "https://sketchfab.com/CGenesis",
+    "url": "https://sketchfab.com/3d-models/1ac10334fe70472880ec3f60a09d763a",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "walther-ppk",
+    "title": "Walther PPK",
+    "author": "hoschu",
+    "authorUrl": "https://sketchfab.com/hoschu",
+    "url": "https://sketchfab.com/3d-models/6e2362c3e9894659abf5fa8bcfd7057b",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "webley-mk-vi",
+    "title": "webley 455 Mk VI",
+    "author": "Willem Verheughe",
+    "authorUrl": "https://sketchfab.com/WillemVerheughe",
+    "url": "https://sketchfab.com/3d-models/795a51c9332b4214b8c30cb775f8c197",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "winchester-1873",
+    "title": "Winchester 1873 .44 WCF",
+    "author": "DarthSid",
+    "authorUrl": "https://sketchfab.com/DarthSid",
+    "url": "https://sketchfab.com/3d-models/047a0f6bd2534419b16ac460d9f36b18",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "winchester-1887",
+    "title": "Winchester 1887 shotgun",
+    "author": "Marty_YYZ",
+    "authorUrl": "https://sketchfab.com/Marty_YYZ",
+    "url": "https://sketchfab.com/3d-models/985b698e74b647e7b4968c8d7c13e7f8",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "winchester-1897",
+    "title": "Winchester Model 1897",
+    "author": "buh",
+    "authorUrl": "https://sketchfab.com/buh-late",
+    "url": "https://sketchfab.com/3d-models/6194ecd23344442fb23f5820f895a0d8",
+    "license": "CC BY 4.0"
+  }
+]

@@ -302,7 +302,7 @@
       "The weapon family name SA80 stands for Small Arms for the 1980s."
     ],
     "era": "Cold War",
-    "modelPath": "/models/l85.glb"
+    "modelPath": null
   },
   {
     "id": "galil",
@@ -448,7 +448,7 @@
       "Its first widely seen public appearance was the 1997 Hong Kong handover."
     ],
     "era": "Modern",
-    "modelPath": "/models/qbz-95.glb"
+    "modelPath": null
   },
   {
     "id": "insas",
@@ -478,7 +478,7 @@
       "\"INSAS\" stands for Indian Small Arms System."
     ],
     "era": "Modern",
-    "modelPath": "/models/insas.glb"
+    "modelPath": null
   },
   {
     "id": "m1-garand",
@@ -630,7 +630,7 @@
       "Many modern 7.62mm sporting and military rifles still use the AR-10 name."
     ],
     "era": "Cold War",
-    "modelPath": "/models/ar-10.glb"
+    "modelPath": null
   },
   {
     "id": "m14",
@@ -781,7 +781,7 @@
       "Many were built from selected M14 rifles already in the inventory."
     ],
     "era": "Cold War",
-    "modelPath": "/models/m21.glb"
+    "modelPath": null
   },
   {
     "id": "steyr-ssg-69",
@@ -986,7 +986,7 @@
       "It has been associated with several of the longest confirmed sniper shots on record."
     ],
     "era": "Modern",
-    "modelPath": "/models/tac-50.glb"
+    "modelPath": null
   },
   {
     "id": "mk14-ebr",
@@ -1047,7 +1047,7 @@
       "It partially replaced the M24 in U.S. Army sniper teams."
     ],
     "era": "Modern",
-    "modelPath": "/models/m110-sass.glb"
+    "modelPath": null
   },
   {
     "id": "l115a3",
@@ -1810,7 +1810,7 @@
       "Browning took the design to FN in Belgium after a dispute with Winchester."
     ],
     "era": "1900–1945",
-    "modelPath": "/models/browning-auto-5.glb"
+    "modelPath": null
   },
   {
     "id": "ithaca-37",
@@ -1923,7 +1923,7 @@
       "It also accepts a 20- or 32-round drum."
     ],
     "era": "Cold War",
-    "modelPath": "/models/aa-12.glb"
+    "modelPath": null
   },
   {
     "id": "spas-12",
@@ -2314,7 +2314,7 @@
       "Gaston Glock had no previous firearms design experience; his company made curtain rods and knives."
     ],
     "era": "Cold War",
-    "modelPath": "/models/glock-17.glb"
+    "modelPath": null
   },
   {
     "id": "desert-eagle",
@@ -2519,7 +2519,7 @@
       "It has been in continuous production since 1899."
     ],
     "era": "Pre-1900",
-    "modelPath": "/models/sw-model-10.glb"
+    "modelPath": null
   },
   {
     "id": "webley-mk-vi",
@@ -2602,7 +2602,7 @@
       "It was carried by Clint Eastwood's character in Dirty Harry."
     ],
     "era": "Cold War",
-    "modelPath": "/models/sw-model-29.glb"
+    "modelPath": null
   },
   {
     "id": "winchester-1873",
@@ -2779,6 +2779,6 @@
       "Early models had a folding wire monopod under the forend."
     ],
     "era": "1900–1945",
-    "modelPath": "/models/arisaka-type-99.glb"
+    "modelPath": null
   }
 ]

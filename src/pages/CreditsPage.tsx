@@ -1,9 +1,10 @@
 import { Link } from 'react-router'
-import { BY_ID, CREDITS, FIREARMS, MODEL_COUNT } from '../data'
+import { BY_ID, CREDITS, FIREARMS, MODEL_COUNT, licenceUrl } from '../data'
 import { GlassPanel } from '../components/GlassPanel'
 import { usePageTitle } from '../usePageTitle'
 
 const ext = { target: '_blank', rel: 'noopener noreferrer' } as const
+const link = 'underline decoration-line underline-offset-4 hover:text-gold-light'
 
 export default function CreditsPage() {
   usePageTitle('Credits')
@@ -26,15 +27,16 @@ export default function CreditsPage() {
           <ul className="mt-3 divide-y divide-line">
             {models.map((m) => (
               <li key={m.id} className="flex flex-col gap-1 py-3 sm:flex-row sm:items-baseline sm:justify-between">
-                <div>
+                <div className="min-w-0">
                   <Link to={`/firearm/${m.id}`} className="text-text hover:text-gold-light">{BY_ID.get(m.id)?.name ?? m.id}</Link>
                   <p className="text-sm text-muted">
-                    “<a href={m.sourceUrl} {...ext} className="underline decoration-line underline-offset-4 hover:text-gold-light">{m.title}</a>” by{' '}
-                    {m.authorUrl ? <a href={m.authorUrl} {...ext} className="underline decoration-line underline-offset-4 hover:text-gold-light">{m.author}</a> : m.author}, via {m.source}
-                    {m.changes ? `. ${m.changes}` : ''}
+                    “{m.title}” by{' '}
+                    <a href={m.authorUrl} {...ext} className={link}>{m.author}</a>, licensed under{' '}
+                    <a href={licenceUrl(m.license)} {...ext} className={link}>{m.license}</a>.
+                    Modified: compressed for the web and scaled to real length.
                   </p>
                 </div>
-                <a href={m.licenseUrl} {...ext} className="chip shrink-0 self-start">{m.license}</a>
+                <a href={m.url} {...ext} className="chip shrink-0 self-start" aria-label={`Source of “${m.title}” on Sketchfab`}>Source</a>
               </li>
             ))}
           </ul>
