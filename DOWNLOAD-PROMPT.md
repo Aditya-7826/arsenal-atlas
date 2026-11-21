@@ -56,17 +56,13 @@ THE LIST (id | name | country, year)
 15. hk-g36 | Heckler & Koch G36 | Germany, 1997
 16. famas | FAMAS (Le Clairon (The Bugle)) | France, 1978
 17. steyr-aug | Steyr AUG | Austria, 1978
-18. l85 | L85 (SA80) | United Kingdom, 1985
 19. galil | IMI Galil | Israel, 1972
 20. tavor | IWI Tavor TAR-21 (Tavor) | Israel, 2001
 21. scar-l | FN SCAR-L (Mk 16) | Belgium, 2009
 22. hk416 | Heckler & Koch HK416 | Germany, 2005
-23. qbz-95 | QBZ-95 (Type 95) | China, 1997
-24. insas | INSAS | India, 1998
 25. svt-40 | SVT-40 (Sveta) | Soviet Union, 1940
 26. sks | SKS (Simonov) | Soviet Union, 1945
 27. fn-fal | FN FAL | Belgium, 1953
-28. ar-10 | ArmaLite AR-10 | United States, 1956
 29. m14 | M14 | United States, 1959
 30. hk-g3 | Heckler & Koch G3 | Germany, 1959
 31. scar-h | FN SCAR-H (Mk 17) | Belgium, 2009
