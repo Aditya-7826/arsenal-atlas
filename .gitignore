@@ -26,3 +26,6 @@ dist-ssr
 # raw model sources stay local (see MODELS.md)
 models-raw/*
 !models-raw/.gitkeep
+
+# Playwright MCP session output
+.playwright-mcp/
