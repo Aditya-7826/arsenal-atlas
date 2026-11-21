@@ -1,0 +1,38 @@
+{
+  "ak-74": { "note": "drop the plank display stand and the second copy lying on it; level the leaning gun", "remove": ["\\.001_", "^platform_plank"], "level": true },
+  "makarov-pm": { "note": "drop the round floor display, the stand and the add-on suppressor; it is posed at an angle, so square it up", "remove": ["^Object_16$", "^Object_20$", "^Object_22$"], "level": { "pitchRange": 90, "pitchDeg": -50 } },
+  "kar98k": { "note": "drop the stripper clip floating above the action", "dropRegion": [{ "min": [-0.3, 0.09, null], "max": [-0.1, null, null] }] },
+  "m1-garand": { "note": "drop the en-bloc clip floating above the action", "dropRegion": [{ "min": [null, 0.12, null] }] },
+  "browning-hi-power": {
+    "note": "single merged mesh lying on its side: stand it up, drop the loose magazine and cartridges, level",
+    "rotate": [90, 0, 0],
+    "dropRegion": [
+      { "min": [0.45, -0.3, null], "max": [0.7, 0.3, null] },
+      { "max": [null, -0.25, null] },
+      { "min": [0.7, 0.44, -0.12], "max": [0.95, 0.62, -0.01] }
+    ],
+    "level": true
+  },
+  "tt-33": { "note": "drop the three spare magazines under the pistol", "dropRegion": [{ "max": [null, -0.07, null] }] },
+  "sks": { "note": "drop the stripper clips and cartridges lying beside the rifle", "dropRegion": [{ "max": [-0.9, null, null] }] },
+  "colt-m1911": { "note": "drop the second, field-stripped pistol and the spare magazine", "remove": ["\\.002_", "^magazine_empty"] },
+  "mg-34": { "note": "drop the two ammo belts laid out far behind the gun", "remove": ["inf lent"] },
+  "tavor": { "note": "drop the broken skinned grip and the second, disassembled rifle lying beside it", "remove": ["^Object_21$", "White_Tavor_Dark", "^Collinator_White", "^Mag_White", "_2_", "^Rail_Down_2", "^Supressor_2", "^Bullet_Bullet_0$"] },
+  "mac-10": { "note": "drop the second gun lying flat, the loose cartridges and the suppressor on the ground; level", "remove": ["\\.001_", "^Case_low\\.0(0[2-9]|10)_", "^Suppressor"], "level": true },
+  "walther-p38": { "note": "spec-gloss -> metal-rough (rendered white); drop the loose magazine and cartridge", "metalRough": true, "remove": ["^P38_Mag_Mesh", "^Bullet_Mesh", "^Object001"] },
+  "desert-eagle": { "note": "drop the loose cartridge", "remove": ["^BulletCase_low", "^Bullet_low"] },
+  "saiga-12": { "note": "drop the shells lying under the gun", "dropRegion": [{ "max": [null, -1.2, null] }] },
+  "benelli-m4": { "note": "model is tilted; level it", "level": true },
+  "stg-44": { "note": "drop the loose sling; level", "remove": ["^Belt_"], "level": true },
+  "pkm": { "note": "spec-gloss -> metal-rough (rendered white)", "metalRough": true },
+  "sig-p226": { "note": "spec-gloss -> metal-rough (rendered white)", "metalRough": true },
+  "l96a1": { "note": "no textures at all: olive-drab finish instead of plain white", "materials": { "*": { "color": [0.035, 0.042, 0.025], "metal": 0.1, "rough": 0.55 } } },
+  "m60": {
+    "note": "light grey fully-metallic materials read as white chrome: darken to gunmetal",
+    "materials": {
+      "My_M60_machinegun_251": { "color": [0.09, 0.09, 0.09] },
+      "My_M60_machinegun_252": { "color": [0.07, 0.07, 0.07] },
+      "My_M60_machinegun_256": { "color": [0.05, 0.05, 0.05], "rough": 0.6 }
+    }
+  }
+}
