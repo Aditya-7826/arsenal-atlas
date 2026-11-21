@@ -396,10 +396,6 @@
     ]
   },
   {
-    "id": "l85",
-    "picks": []
-  },
-  {
     "id": "galil",
     "picks": [
       {
@@ -574,54 +570,6 @@
         "animated": false
       }
     ]
-  },
-  {
-    "id": "qbz-95",
-    "picks": [
-      {
-        "uid": "9ebd80d2ea12441dae8e41ad695d939d",
-        "title": "Type 95 Ha-Go",
-        "author": "Jesper Landin",
-        "authorUrl": "https://sketchfab.com/JesperLandin",
-        "url": "https://sketchfab.com/3d-models/type-95-ha-go-9ebd80d2ea12441dae8e41ad695d939d",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 82846,
-        "likes": 178,
-        "views": 10501,
-        "animated": false
-      },
-      {
-        "uid": "62c9e7d5a2394b048646a8be516716ac",
-        "title": "Type-97",
-        "author": "Brahian SG",
-        "authorUrl": "https://sketchfab.com/Brahian_s_g",
-        "url": "https://sketchfab.com/3d-models/type-97-62c9e7d5a2394b048646a8be516716ac",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 32988,
-        "likes": 23,
-        "views": 1072,
-        "animated": false
-      },
-      {
-        "uid": "64897225cfcd4d58955abae594b2919c",
-        "title": "QBZ-95 (Low-Poly)",
-        "author": "GoldbergR",
-        "authorUrl": "https://sketchfab.com/GoldbergR",
-        "url": "https://sketchfab.com/3d-models/qbz-95-low-poly-64897225cfcd4d58955abae594b2919c",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 14619,
-        "likes": 23,
-        "views": 899,
-        "animated": false
-      }
-    ]
-  },
-  {
-    "id": "insas",
-    "picks": []
   },
   {
     "id": "m1-garand",
@@ -800,50 +748,6 @@
     ]
   },
   {
-    "id": "ar-10",
-    "picks": [
-      {
-        "uid": "23c4aee4aff547a7af9d5c4604faf5e0",
-        "title": "AR 15",
-        "author": "Ecler",
-        "authorUrl": "https://sketchfab.com/ecler",
-        "url": "https://sketchfab.com/3d-models/ar-15-23c4aee4aff547a7af9d5c4604faf5e0",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 20411,
-        "likes": 141,
-        "views": 6075,
-        "animated": false
-      },
-      {
-        "uid": "65a708bd5c9249a995c8259da2a70522",
-        "title": "low-poly Armalite AR-10",
-        "author": "D_U",
-        "authorUrl": "https://sketchfab.com/DU1701",
-        "url": "https://sketchfab.com/3d-models/low-poly-armalite-ar-10-65a708bd5c9249a995c8259da2a70522",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 5572,
-        "likes": 38,
-        "views": 956,
-        "animated": false
-      },
-      {
-        "uid": "d9f2e5ac3d4046ecac69f544c9387488",
-        "title": "low-poly Armalite AR-10A4",
-        "author": "D_U",
-        "authorUrl": "https://sketchfab.com/DU1701",
-        "url": "https://sketchfab.com/3d-models/low-poly-armalite-ar-10a4-d9f2e5ac3d4046ecac69f544c9387488",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 18792,
-        "likes": 37,
-        "views": 1063,
-        "animated": false
-      }
-    ]
-  },
-  {
     "id": "m14",
     "picks": [
       {
@@ -994,50 +898,6 @@
     ]
   },
   {
-    "id": "m21",
-    "picks": [
-      {
-        "uid": "598d3938b4214f2e9f385c29b3a3744a",
-        "title": "M21 Patrol Boat",
-        "author": "gogiart",
-        "authorUrl": "https://sketchfab.com/agt14032013",
-        "url": "https://sketchfab.com/3d-models/m21-patrol-boat-598d3938b4214f2e9f385c29b3a3744a",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 253134,
-        "likes": 51,
-        "views": 2793,
-        "animated": false
-      },
-      {
-        "uid": "4df712e1c904401aa9503d4516390891",
-        "title": "low-poly M21",
-        "author": "D_U",
-        "authorUrl": "https://sketchfab.com/DU1701",
-        "url": "https://sketchfab.com/3d-models/low-poly-m21-4df712e1c904401aa9503d4516390891",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 5691,
-        "likes": 31,
-        "views": 809,
-        "animated": false
-      },
-      {
-        "uid": "a945c22ac57041689c97d2f1228e185f",
-        "title": "M21",
-        "author": "Notfortheireyes",
-        "authorUrl": "https://sketchfab.com/notfortheireyes",
-        "url": "https://sketchfab.com/3d-models/m21-a945c22ac57041689c97d2f1228e185f",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 4556,
-        "likes": 1,
-        "views": 15,
-        "animated": false
-      }
-    ]
-  },
-  {
     "id": "steyr-ssg-69",
     "picks": [
       {
@@ -1116,15 +976,7 @@
     "picks": []
   },
   {
-    "id": "tac-50",
-    "picks": []
-  },
-  {
     "id": "mk14-ebr",
-    "picks": []
-  },
-  {
-    "id": "m110-sass",
     "picks": []
   },
   {
@@ -2015,50 +1867,6 @@
     ]
   },
   {
-    "id": "browning-auto-5",
-    "picks": [
-      {
-        "uid": "e98195e422c44774b5ed02326d16f937",
-        "title": "Browning Auto-5 (Enlisted)",
-        "author": "KojfDiscord",
-        "authorUrl": "https://sketchfab.com/KojfDiscord",
-        "url": "https://sketchfab.com/3d-models/browning-auto-5-enlisted-e98195e422c44774b5ed02326d16f937",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 13749,
-        "likes": 17,
-        "views": 217,
-        "animated": false
-      },
-      {
-        "uid": "555fdd900e904e8891c0e5b0726c6915",
-        "title": "Browning Auto-5 (Low-Poly)",
-        "author": "GoldbergR",
-        "authorUrl": "https://sketchfab.com/GoldbergR",
-        "url": "https://sketchfab.com/3d-models/browning-auto-5-low-poly-555fdd900e904e8891c0e5b0726c6915",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 3034,
-        "likes": 16,
-        "views": 625,
-        "animated": false
-      },
-      {
-        "uid": "27ce764fbef543c58147cc7698a68456",
-        "title": "Browning Auto-5 \"Sweet 16\"",
-        "author": "calico16",
-        "authorUrl": "https://sketchfab.com/calico16",
-        "url": "https://sketchfab.com/3d-models/browning-auto-5-sweet-16-27ce764fbef543c58147cc7698a68456",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 2851,
-        "likes": 11,
-        "views": 804,
-        "animated": false
-      }
-    ]
-  },
-  {
     "id": "ithaca-37",
     "picks": [
       {
@@ -2186,50 +1994,6 @@
         "faces": 94614,
         "likes": 41,
         "views": 2630,
-        "animated": false
-      }
-    ]
-  },
-  {
-    "id": "aa-12",
-    "picks": [
-      {
-        "uid": "78217c97553b489ea25afd2a47231376",
-        "title": "Low-Poly USAS 12",
-        "author": "TastyTony",
-        "authorUrl": "https://sketchfab.com/TastyTony",
-        "url": "https://sketchfab.com/3d-models/low-poly-usas-12-78217c97553b489ea25afd2a47231376",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 4082,
-        "likes": 91,
-        "views": 3564,
-        "animated": false
-      },
-      {
-        "uid": "c68a127798084ca7b302d6066bc23a25",
-        "title": "AA-12 Redesign",
-        "author": "Naudaff3D",
-        "authorUrl": "https://sketchfab.com/Naudaff3D",
-        "url": "https://sketchfab.com/3d-models/aa-12-redesign-c68a127798084ca7b302d6066bc23a25",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 56799,
-        "likes": 88,
-        "views": 6171,
-        "animated": false
-      },
-      {
-        "uid": "ad2ff33173bd43e49133585a93d6ee5c",
-        "title": "AA-12",
-        "author": "SKeLLeR",
-        "authorUrl": "https://sketchfab.com/SKeLLeR",
-        "url": "https://sketchfab.com/3d-models/aa-12-ad2ff33173bd43e49133585a93d6ee5c",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 2376,
-        "likes": 22,
-        "views": 1584,
         "animated": false
       }
     ]
@@ -2440,10 +2204,6 @@
   },
   {
     "id": "beretta-92",
-    "picks": []
-  },
-  {
-    "id": "glock-17",
     "picks": []
   },
   {
@@ -2685,50 +2445,6 @@
     ]
   },
   {
-    "id": "sw-model-10",
-    "picks": [
-      {
-        "uid": "6d1a59873e34488e8ea0bc7732afd7d1",
-        "title": "Military Hat",
-        "author": "aSocialCrab",
-        "authorUrl": "https://sketchfab.com/aSocialCrab",
-        "url": "https://sketchfab.com/3d-models/military-hat-6d1a59873e34488e8ea0bc7732afd7d1",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 154112,
-        "likes": 1132,
-        "views": 37575,
-        "animated": false
-      },
-      {
-        "uid": "9aea4465dc974c728b6167eac5ffd22e",
-        "title": "[Free] Armored Police Vehicle",
-        "author": "Roam_Man",
-        "authorUrl": "https://sketchfab.com/Roam_Man",
-        "url": "https://sketchfab.com/3d-models/free-armored-police-vehicle-9aea4465dc974c728b6167eac5ffd22e",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 48186,
-        "likes": 848,
-        "views": 33258,
-        "animated": false
-      },
-      {
-        "uid": "74a05141476d4f6f8ebf83d9636923c5",
-        "title": "Dredd",
-        "author": "Willy Decarpentrie",
-        "authorUrl": "https://sketchfab.com/skudgee",
-        "url": "https://sketchfab.com/3d-models/dredd-74a05141476d4f6f8ebf83d9636923c5",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 19698,
-        "likes": 340,
-        "views": 10955,
-        "animated": false
-      }
-    ]
-  },
-  {
     "id": "webley-mk-vi",
     "picks": [
       {
@@ -2812,50 +2528,6 @@
         "faces": 136560,
         "likes": 179,
         "views": 8246,
-        "animated": false
-      }
-    ]
-  },
-  {
-    "id": "sw-model-29",
-    "picks": [
-      {
-        "uid": "3b28aa07472b484592b21afd75dcf095",
-        "title": "Boeing B-29 Superfortress Cockpit",
-        "author": "Ulysse Cambier",
-        "authorUrl": "https://sketchfab.com/cambier.ulysse",
-        "url": "https://sketchfab.com/3d-models/boeing-b-29-superfortress-cockpit-3b28aa07472b484592b21afd75dcf095",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 503552,
-        "likes": 73,
-        "views": 6197,
-        "animated": false
-      },
-      {
-        "uid": "d0a2ac6316514d2fb6328076e1d7a98b",
-        "title": "L-29",
-        "author": "UraTera",
-        "authorUrl": "https://sketchfab.com/UraTera",
-        "url": "https://sketchfab.com/3d-models/l-29-d0a2ac6316514d2fb6328076e1d7a98b",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 85525,
-        "likes": 14,
-        "views": 402,
-        "animated": true
-      },
-      {
-        "uid": "8e8e5366dc874ec3b32808bc5251db2d",
-        "title": "Low-Poly Model 29",
-        "author": "TastyTony",
-        "authorUrl": "https://sketchfab.com/TastyTony",
-        "url": "https://sketchfab.com/3d-models/low-poly-model-29-8e8e5366dc874ec3b32808bc5251db2d",
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "faces": 2571,
-        "likes": 13,
-        "views": 137,
         "animated": false
       }
     ]
@@ -3079,9 +2751,5 @@
         "animated": false
       }
     ]
-  },
-  {
-    "id": "arisaka-type-99",
-    "picks": []
   }
 ]

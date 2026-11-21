@@ -275,36 +275,6 @@
     "modelPath": "/models/steyr-aug.glb"
   },
   {
-    "id": "l85",
-    "name": "L85 (SA80)",
-    "nickname": null,
-    "country": "United Kingdom",
-    "manufacturer": "Royal Small Arms Factory, Enfield",
-    "designer": null,
-    "year": 1985,
-    "category": "assault-rifles",
-    "calibre": "5.56×45mm NATO",
-    "action": "Gas-operated",
-    "weightKg": null,
-    "lengthMm": 785,
-    "capacity": 30,
-    "feed": "Detachable box magazine",
-    "users": [
-      "British Armed Forces"
-    ],
-    "conflicts": [
-      "Gulf War",
-      "Iraq War",
-      "War in Afghanistan"
-    ],
-    "history": "The L85 introduced the British Army to the bullpup layout and the 5.56mm NATO cartridge. Early versions had a difficult reputation, which a major upgrade in the early 2000s largely addressed. It is usually seen with an optical sight as standard.",
-    "trivia": [
-      "The weapon family name SA80 stands for Small Arms for the 1980s."
-    ],
-    "era": "Cold War",
-    "modelPath": null
-  },
-  {
     "id": "galil",
     "name": "IMI Galil",
     "nickname": null,
@@ -422,63 +392,6 @@
     ],
     "era": "Modern",
     "modelPath": "/models/hk416.glb"
-  },
-  {
-    "id": "qbz-95",
-    "name": "QBZ-95",
-    "nickname": "Type 95",
-    "country": "China",
-    "manufacturer": "Norinco",
-    "designer": null,
-    "year": 1997,
-    "category": "assault-rifles",
-    "calibre": "5.8×42mm",
-    "action": "Gas-operated",
-    "weightKg": 3.25,
-    "lengthMm": 745,
-    "capacity": 30,
-    "feed": "Detachable box magazine",
-    "users": [
-      "People's Liberation Army",
-      "Hong Kong Garrison"
-    ],
-    "conflicts": [],
-    "history": "The QBZ-95 is a bullpup rifle built around China's own 5.8mm cartridge. It was first shown publicly when the People's Liberation Army garrison entered Hong Kong in 1997. It is part of a family that also includes a carbine and a light support weapon.",
-    "trivia": [
-      "Its first widely seen public appearance was the 1997 Hong Kong handover."
-    ],
-    "era": "Modern",
-    "modelPath": null
-  },
-  {
-    "id": "insas",
-    "name": "INSAS",
-    "nickname": null,
-    "country": "India",
-    "manufacturer": "Ordnance Factory Board",
-    "designer": null,
-    "year": 1998,
-    "category": "assault-rifles",
-    "calibre": "5.56×45mm NATO",
-    "action": "Gas-operated",
-    "weightKg": 4.15,
-    "lengthMm": 960,
-    "capacity": 20,
-    "feed": "Detachable box magazine",
-    "users": [
-      "Indian Army",
-      "Royal Bhutan Army",
-      "Nepal Army"
-    ],
-    "conflicts": [
-      "Kargil War"
-    ],
-    "history": "INSAS was India's first domestically developed family of infantry weapons, including a rifle and a light machine gun. It replaced older 7.62mm rifles in Indian service. It is now being supplemented by newer rifles in the Indian Army.",
-    "trivia": [
-      "\"INSAS\" stands for Indian Small Arms System."
-    ],
-    "era": "Modern",
-    "modelPath": null
   },
   {
     "id": "m1-garand",
@@ -604,35 +517,6 @@
     "modelPath": "/models/fn-fal.glb"
   },
   {
-    "id": "ar-10",
-    "name": "ArmaLite AR-10",
-    "nickname": null,
-    "country": "United States",
-    "manufacturer": "ArmaLite",
-    "designer": "Eugene Stoner",
-    "year": 1956,
-    "category": "battle-rifles",
-    "calibre": "7.62×51mm NATO",
-    "action": "Gas-operated",
-    "weightKg": 3.29,
-    "lengthMm": null,
-    "capacity": 20,
-    "feed": "Detachable box magazine",
-    "users": [
-      "Portuguese Armed Forces",
-      "Sudanese Army"
-    ],
-    "conflicts": [
-      "Portuguese Colonial War"
-    ],
-    "history": "The AR-10 was a radical design that used aluminium and fibreglass at a time when rifles were made of steel and wood. It lost the U.S. Army trials to the M14 but saw limited export service. Its scaled-down sibling, the AR-15, became far more famous.",
-    "trivia": [
-      "Many modern 7.62mm sporting and military rifles still use the AR-10 name."
-    ],
-    "era": "Cold War",
-    "modelPath": null
-  },
-  {
     "id": "m14",
     "name": "M14",
     "nickname": null,
@@ -754,34 +638,6 @@
     ],
     "era": "Cold War",
     "modelPath": "/models/svd-dragunov.glb"
-  },
-  {
-    "id": "m21",
-    "name": "M21",
-    "nickname": null,
-    "country": "United States",
-    "manufacturer": "Rock Island Arsenal",
-    "designer": null,
-    "year": 1969,
-    "category": "sniper-dmr",
-    "calibre": "7.62×51mm NATO",
-    "action": "Gas-operated",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": 20,
-    "feed": "Detachable box magazine",
-    "users": [
-      "U.S. Army"
-    ],
-    "conflicts": [
-      "Vietnam War"
-    ],
-    "history": "The M21 was a carefully accurised version of the M14 rifle, fitted with a scope and match-grade components. It served as the U.S. Army's primary sniper rifle during the later Vietnam War. It was later replaced by the bolt-action M24.",
-    "trivia": [
-      "Many were built from selected M14 rifles already in the inventory."
-    ],
-    "era": "Cold War",
-    "modelPath": null
   },
   {
     "id": "steyr-ssg-69",
@@ -959,36 +815,6 @@
     "modelPath": "/models/barrett-m82.glb"
   },
   {
-    "id": "tac-50",
-    "name": "McMillan TAC-50",
-    "nickname": "C15 (Canada)",
-    "country": "United States",
-    "manufacturer": "McMillan Firearms",
-    "designer": null,
-    "year": 2000,
-    "category": "sniper-dmr",
-    "calibre": ".50 BMG",
-    "action": "Bolt-action",
-    "weightKg": 11.8,
-    "lengthMm": null,
-    "capacity": 5,
-    "feed": "Detachable box magazine",
-    "users": [
-      "Canadian Armed Forces",
-      "U.S. Navy SEALs"
-    ],
-    "conflicts": [
-      "War in Afghanistan",
-      "War against the Islamic State"
-    ],
-    "history": "The TAC-50 is a long-range bolt-action rifle chambered for the .50 BMG cartridge. Canada adopted it as the C15 Long Range Sniper Weapon. It became well known for a series of record-distance engagements by Canadian snipers.",
-    "trivia": [
-      "It has been associated with several of the longest confirmed sniper shots on record."
-    ],
-    "era": "Modern",
-    "modelPath": null
-  },
-  {
     "id": "mk14-ebr",
     "name": "Mk 14 Enhanced Battle Rifle",
     "nickname": "Mk 14 EBR",
@@ -1018,36 +844,6 @@
     ],
     "era": "Modern",
     "modelPath": "/models/mk14-ebr.glb"
-  },
-  {
-    "id": "m110-sass",
-    "name": "M110 Semi-Automatic Sniper System",
-    "nickname": "M110 SASS",
-    "country": "United States",
-    "manufacturer": "Knight's Armament Company",
-    "designer": "Eugene Stoner (SR-25 basis)",
-    "year": 2008,
-    "category": "sniper-dmr",
-    "calibre": "7.62×51mm NATO",
-    "action": "Gas-operated",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": 20,
-    "feed": "Detachable box magazine",
-    "users": [
-      "U.S. Army",
-      "U.S. Marine Corps"
-    ],
-    "conflicts": [
-      "War in Afghanistan",
-      "Iraq War"
-    ],
-    "history": "The M110 is a semi-automatic sniper rifle based on the SR-25, itself derived from Stoner's AR-10. It gave U.S. snipers a faster follow-up capability than the bolt-action M24. It is typically fitted with a suppressor and a variable-power scope.",
-    "trivia": [
-      "It partially replaced the M24 in U.S. Army sniper teams."
-    ],
-    "era": "Modern",
-    "modelPath": null
   },
   {
     "id": "l115a3",
@@ -1784,35 +1580,6 @@
     "modelPath": "/models/winchester-1897.glb"
   },
   {
-    "id": "browning-auto-5",
-    "name": "Browning Auto-5",
-    "nickname": "A-5",
-    "country": "Belgium",
-    "manufacturer": "FN Herstal",
-    "designer": "John Browning",
-    "year": 1902,
-    "category": "shotguns",
-    "calibre": "12 gauge",
-    "action": "Recoil-operated",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": null,
-    "feed": "Tubular magazine",
-    "users": [
-      "Civilian market",
-      "Various military units"
-    ],
-    "conflicts": [
-      "World War II"
-    ],
-    "history": "The Auto-5 was the first mass-produced semi-automatic shotgun. Its squared-off rear receiver earned it the nickname \"humpback\". It stayed in production for most of the twentieth century.",
-    "trivia": [
-      "Browning took the design to FN in Belgium after a dispute with Winchester."
-    ],
-    "era": "1900–1945",
-    "modelPath": null
-  },
-  {
     "id": "ithaca-37",
     "name": "Ithaca 37",
     "nickname": null,
@@ -1898,32 +1665,6 @@
     ],
     "era": "Cold War",
     "modelPath": "/models/mossberg-500.glb"
-  },
-  {
-    "id": "aa-12",
-    "name": "Auto Assault-12",
-    "nickname": "AA-12",
-    "country": "United States",
-    "manufacturer": "Military Police Systems",
-    "designer": "Maxwell Atchisson",
-    "year": 1972,
-    "category": "shotguns",
-    "calibre": "12 gauge",
-    "action": "Gas-operated",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": 8,
-    "feed": "Detachable box magazine",
-    "users": [
-      "Limited military testing"
-    ],
-    "conflicts": [],
-    "history": "The AA-12 began as a 1970s design by Maxwell Atchisson and was later redeveloped by other companies. It is a fully automatic shotgun that feeds from box or drum magazines. Its very low recoil for its class became its headline feature.",
-    "trivia": [
-      "It also accepts a 20- or 32-round drum."
-    ],
-    "era": "Cold War",
-    "modelPath": null
   },
   {
     "id": "spas-12",
@@ -2290,33 +2031,6 @@
     "modelPath": "/models/beretta-92.glb"
   },
   {
-    "id": "glock-17",
-    "name": "Glock 17",
-    "nickname": null,
-    "country": "Austria",
-    "manufacturer": "Glock",
-    "designer": "Gaston Glock",
-    "year": 1982,
-    "category": "pistols",
-    "calibre": "9×19mm Parabellum",
-    "action": "Short recoil",
-    "weightKg": 0.63,
-    "lengthMm": null,
-    "capacity": 17,
-    "feed": "Detachable box magazine",
-    "users": [
-      "Austrian Armed Forces",
-      "Many police forces worldwide"
-    ],
-    "conflicts": [],
-    "history": "The Glock 17 was its maker's first firearm, created for an Austrian Army pistol trial. Its polymer frame and simple controls were controversial at first but soon widely imitated. It became one of the most common police pistols in the world.",
-    "trivia": [
-      "Gaston Glock had no previous firearms design experience; his company made curtain rods and knives."
-    ],
-    "era": "Cold War",
-    "modelPath": null
-  },
-  {
     "id": "desert-eagle",
     "name": "Desert Eagle",
     "nickname": null,
@@ -2492,36 +2206,6 @@
     "modelPath": "/models/nagant-m1895.glb"
   },
   {
-    "id": "sw-model-10",
-    "name": "Smith & Wesson Model 10",
-    "nickname": "Military & Police",
-    "country": "United States",
-    "manufacturer": "Smith & Wesson",
-    "designer": null,
-    "year": 1899,
-    "category": "revolvers",
-    "calibre": ".38 Special",
-    "action": "Double-action",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": 6,
-    "feed": "Cylinder",
-    "users": [
-      "U.S. police departments",
-      "Allied forces in World War II"
-    ],
-    "conflicts": [
-      "World War I",
-      "World War II"
-    ],
-    "history": "The Model 10 is one of the most widely produced revolvers of the twentieth century, with millions made. It served as the standard sidearm for countless American police departments. It also armed many Allied troops during the Second World War.",
-    "trivia": [
-      "It has been in continuous production since 1899."
-    ],
-    "era": "Pre-1900",
-    "modelPath": null
-  },
-  {
     "id": "webley-mk-vi",
     "name": "Webley Mk VI",
     "nickname": null,
@@ -2577,32 +2261,6 @@
     ],
     "era": "Cold War",
     "modelPath": "/models/colt-python.glb"
-  },
-  {
-    "id": "sw-model-29",
-    "name": "Smith & Wesson Model 29",
-    "nickname": null,
-    "country": "United States",
-    "manufacturer": "Smith & Wesson",
-    "designer": null,
-    "year": 1955,
-    "category": "revolvers",
-    "calibre": ".44 Magnum",
-    "action": "Double-action",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": 6,
-    "feed": "Cylinder",
-    "users": [
-      "Civilian market"
-    ],
-    "conflicts": [],
-    "history": "The Model 29 was introduced alongside the .44 Magnum cartridge and for years was promoted as the most powerful handgun in production. Demand soared after it starred in the 1971 film Dirty Harry. It became a symbol of 1970s cinema.",
-    "trivia": [
-      "It was carried by Clint Eastwood's character in Dirty Harry."
-    ],
-    "era": "Cold War",
-    "modelPath": null
   },
   {
     "id": "winchester-1873",
@@ -2752,33 +2410,5 @@
     ],
     "era": "1900–1945",
     "modelPath": "/models/kar98k.glb"
-  },
-  {
-    "id": "arisaka-type-99",
-    "name": "Arisaka Type 99",
-    "nickname": null,
-    "country": "Japan",
-    "manufacturer": "Various Japanese arsenals",
-    "designer": null,
-    "year": 1939,
-    "category": "historic-rifles",
-    "calibre": "7.7×58mm Arisaka",
-    "action": "Bolt-action",
-    "weightKg": null,
-    "lengthMm": null,
-    "capacity": 5,
-    "feed": "Internal magazine",
-    "users": [
-      "Imperial Japanese Army"
-    ],
-    "conflicts": [
-      "World War II"
-    ],
-    "history": "The Type 99 replaced the earlier Type 38 rifle with a more powerful cartridge. It was the main Japanese infantry rifle of the Second World War. Late-war versions were simplified to speed up production.",
-    "trivia": [
-      "Early models had a folding wire monopod under the forend."
-    ],
-    "era": "1900–1945",
-    "modelPath": null
   }
 ]
