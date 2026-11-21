@@ -4,8 +4,8 @@
  *
  *   models-raw/<id>.glb  ->  public/models/<id>.glb
  *
- * Uses gltf-transform: Meshopt geometry compression, textures resized to 2048 px max
- * and converted to WebP. Run with `npm run models:optimize` (add `-- --force` to
+ * Uses gltf-transform optimize: dedupe, prune, weld, Meshopt geometry compression,
+ * textures resized to 2048 px max and converted to WebP. Run with `npm run models:optimize` (add `-- --force` to
  * re-process files that are already up to date).
  */
 import { spawnSync } from 'node:child_process'
@@ -55,7 +55,21 @@ for (const file of files) {
     skipped++
     continue
   }
-  const args = [cli, 'optimize', src, dst, '--compress', 'meshopt', '--texture-compress', 'webp', '--texture-size', '2048']
+  // dedupe + prune + weld + meshopt, textures capped at 2048 px and converted to WebP.
+  // Geometry is otherwise left as authored: no automatic simplify/join/flatten/instancing.
+  const args = [
+    cli, 'optimize', src, dst,
+    '--compress', 'meshopt',
+    '--texture-compress', 'webp',
+    '--texture-size', '2048',
+    '--prune', 'true',
+    '--weld', 'true',
+    '--simplify', 'false',
+    '--join', 'false',
+    '--instance', 'false',
+    '--flatten', 'false',
+    '--palette', 'false',
+  ]
   const r = spawnSync(process.execPath, args, { stdio: ['ignore', 'pipe', 'pipe'], encoding: 'utf8' })
   if (r.status !== 0) {
     console.error(`x  ${id}: gltf-transform failed\n${(r.stderr || r.stdout).trim()}`)

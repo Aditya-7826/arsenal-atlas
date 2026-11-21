@@ -9,7 +9,10 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "models:optimize": "node scripts/optimize-models.mjs",
-    "models:check": "node scripts/check-models.mjs"
+    "models:check": "node scripts/check-models.mjs",
+    "models:find": "node scripts/find-models.mjs",
+    "models:import": "node scripts/import-models.mjs",
+    "models:report": "node scripts/report-models.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.9",
