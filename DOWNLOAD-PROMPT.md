@@ -109,16 +109,13 @@ THE LIST (id | name | country, year)
 77. walther-p38 | Walther P38 | Germany, 1938
 78. makarov-pm | Makarov PM (PM) | Soviet Union, 1951
 79. beretta-92 | Beretta 92 (M9 (U.S.)) | Italy, 1975
-80. glock-17 | Glock 17 | Austria, 1982
 81. desert-eagle | Desert Eagle | Israel / United States, 1983
 82. sig-p226 | SIG Sauer P226 | Switzerland / Germany, 1984
 83. hk-usp | Heckler & Koch USP | Germany, 1993
 84. fn-five-seven | FN Five-seveN | Belgium, 2000
 85. nagant-m1895 | Nagant M1895 | Russian Empire, 1895
-86. sw-model-10 | Smith & Wesson Model 10 (Military & Police) | United States, 1899
 87. webley-mk-vi | Webley Mk VI | United Kingdom, 1915
 88. colt-python | Colt Python | United States, 1955
-89. sw-model-29 | Smith & Wesson Model 29 | United States, 1955
 90. winchester-1873 | Winchester Model 1873 (The gun that won the West) | United States, 1873
 91. mosin-nagant | Mosin–Nagant | Russian Empire, 1891
 92. springfield-m1903 | M1903 Springfield (Springfield) | United States, 1903
