@@ -3,7 +3,7 @@ import { Link, useSearchParams } from 'react-router'
 import { BY_ID, CATEGORIES, fmt, inCategory, type Firearm } from '../data'
 import { MAX_COMPARE, setCompare, useCompare } from '../compare'
 import { GlassPanel } from '../components/GlassPanel'
-import { Silhouette2D } from '../components/Silhouette2D'
+import { FirearmPreview } from '../components/FirearmPreview'
 import { IconClose } from '../components/Icons'
 import { usePageTitle } from '../usePageTitle'
 
@@ -99,7 +99,7 @@ export default function ComparePage() {
                   <div className="min-w-0">
                     <Link to={`/firearm/${f.id}`} className="font-display text-lg leading-tight text-text hover:text-gold-light">{f.name.toUpperCase()}</Link>
                     <div className="mt-3 rounded-xl border border-line bg-bg/60 p-3">
-                      <Silhouette2D firearm={f} className="h-14 w-full" />
+                      <FirearmPreview firearm={f} className="h-14 w-full" />
                     </div>
                   </div>
                   <button type="button" className="icon-btn shrink-0" onClick={() => setCompare(ids.filter((x) => x !== f.id))} aria-label={`Remove ${f.name}`}>

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router'
 import { BY_ID, CATEGORIES, FIREARMS, MODEL_COUNT, inCategory, type Firearm } from '../data'
 import { useMode3D } from '../mode'
 import { GlassPanel } from '../components/GlassPanel'
-import { Silhouette2D } from '../components/Silhouette2D'
+import { FirearmPreview } from '../components/FirearmPreview'
 import { IconArrow } from '../components/Icons'
 import { usePageTitle } from '../usePageTitle'
 
@@ -22,7 +22,7 @@ function Lobby2D() {
           <div className="grid grid-cols-3 gap-2">
             {c.featured.map((id) => (
               <div key={id} className="rounded-xl border border-line bg-bg/60 p-2">
-                <Silhouette2D firearm={BY_ID.get(id)!} className="h-12 w-full" />
+                <FirearmPreview firearm={BY_ID.get(id)!} className="h-12 w-full" />
               </div>
             ))}
           </div>
@@ -47,7 +47,7 @@ export default function Lobby() {
         {mode === '3d' && ' Drag to look around, then select a piece on display.'}
       </p>
       <p className="mt-3 text-xs text-muted">
-        {MODEL_COUNT} 3D models · {FIREARMS.length - MODEL_COUNT} stylised placeholders
+        {MODEL_COUNT} 3D models{FIREARMS.length > MODEL_COUNT && ` · ${FIREARMS.length - MODEL_COUNT} stylised placeholders`}
       </p>
     </GlassPanel>
   )

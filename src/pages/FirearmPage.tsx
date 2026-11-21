@@ -6,7 +6,7 @@ import { toggleCompare, useCompare, MAX_COMPARE } from '../compare'
 import { GlassPanel } from '../components/GlassPanel'
 import { StatTile, type Compare } from '../components/StatTile'
 import { Sparkline } from '../components/Sparkline'
-import { Silhouette2D } from '../components/Silhouette2D'
+import { FirearmPreview } from '../components/FirearmPreview'
 import { IconBack, IconCompare } from '../components/Icons'
 import { usePageTitle } from '../usePageTitle'
 
@@ -116,9 +116,9 @@ export default function FirearmPage() {
           </Suspense>
         ) : (
           <div className="absolute inset-0 grid place-items-center p-8">
-            <Silhouette2D firearm={f} className="max-h-[70%] w-full" />
+            <FirearmPreview firearm={f} className="max-h-[70%] w-full" />
             <span className="label absolute left-3 top-3 rounded-full border border-line px-3 py-1.5 text-gold-light!">
-              {hasModel(f.id) ? '2D mode: switch to 3D for the model' : 'Model coming soon'}
+              {hasModel(f.id) ?'2D mode: switch to 3D for the model' : 'Model coming soon'}
             </span>
             {f.lengthMm != null && <span className="label absolute bottom-4">{f.lengthMm} mm overall</span>}
           </div>
